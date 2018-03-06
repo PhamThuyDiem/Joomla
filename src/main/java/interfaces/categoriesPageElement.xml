@@ -1,0 +1,40 @@
+<interface>
+	<Element name="btnToolbar">
+		<By>ByXPath</By>
+		<Address>//button[contains(.,'{0}')]</Address>
+	</Element>
+	<Element name="txtSearch">
+		<By>ByXPath</By>
+		<Address>//input[@id='filter_search']</Address>
+	</Element>
+	<Element name="btnSearch">
+		<By>ByXPath</By>
+		<Address>//button[@data-original-title='Search']</Address>
+	</Element>
+	<Element name="alertSuccess">
+		<By>ByXPath</By>
+		<Address>//div[@class='alert alert-success']//div[contains(.,'{0}')]
+		</Address>
+	</Element>
+	<Element name="displayCategories">
+		<By>ByXPath</By>
+		<Address>
+		</Address>
+	</Element>
+	<Element name="alertSuccess">
+		<By>ByXPath</By>
+		<Address>//div[@class='alert alert-success']//div[contains(.,'{0}')]
+		</Address>
+	</Element>
+	<Element name="displayCategory">
+		<By>ByXPath</By>
+		<Address>//table[@id='categoryList']//a[normalize-space(text())='{0}']
+		</Address>
+	</Element>
+	<Element name="alertMessage">
+		<By>ByXPath</By>
+		<Address>//div[@class='alert-message']
+		</Address>
+	</Element>
+</interface>
+

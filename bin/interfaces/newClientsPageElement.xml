@@ -1,0 +1,18 @@
+<interfaces>
+	<Element name="inputName">
+		<By>ByXPath</By>
+		<Address>//input[@id='jform_name']</Address>
+	</Element>
+	<Element name="inputContactName">
+		<By>ByXPath</By>
+		<Address>//input[@id='jform_contact']</Address>
+	</Element>
+	<Element name="inputContactEmail">
+		<By>ByXPath</By>
+		<Address>//input[@id='jform_email']</Address>
+	</Element>
+	<Element name="btnToolbar">
+		<By>ByXPath</By>
+		<Address>//div[@id='{0}']</Address>
+	</Element>
+</interfaces>

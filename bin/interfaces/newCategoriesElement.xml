@@ -1,0 +1,10 @@
+<interfaces>
+	<Element name="inputTitle">
+		<By>ByXPath</By>
+		<Address>//input[@id='jform_title']</Address>
+	</Element>
+	<Element name="btnToolbar">
+		<By>ByXPath</By>
+		<Address>//div[@id='{0}']</Address>
+	</Element>
+</interfaces>

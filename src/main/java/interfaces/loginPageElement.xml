@@ -1,0 +1,16 @@
+<interfaces>
+
+	<Element name="txtUsername">
+		<By>ByCssSelector</By>
+		<Address>input[id=mod-login-username]</Address>
+	</Element>
+	<Element name="txtPasswd">
+		<By>ByCssSelector</By>
+		<Address>input[id=mod-login-password]</Address>
+	</Element>
+	<Element name="btnLogin">
+		<By>ByCssSelector</By>
+		<Address>button[class*='login-button']</Address>
+	</Element>
+	
+</interfaces>

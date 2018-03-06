@@ -1,0 +1,77 @@
+<interfaces>
+	<Element name="header">
+		<By>ByXPath</By>
+		<Address>//a[@href='{0}']</Address>
+	</Element>
+	<Element name="dropdownUser">
+		<By>ByXPath</By>
+		<Address>//a[@href='{0}']</Address>
+	</Element>
+	<Element name="dropdownMenus">
+		<By>ByXPath</By>
+		<Address>//a[@href='{0}']</Address>
+	</Element>
+	<Element name="dropdownContent">
+		<By>ByXPath</By>
+		<Address>//a[@href='{0}']</Address>
+	</Element>
+	<Element name="componentsDropdown">
+		<By>ByXPath</By>
+		<Address>//a[@href='{0}']</Address>
+	</Element>
+	<Element name="extensionsDropdown">
+		<By>ByXPath</By>
+		<Address>//a[@href='{0}']</Address>
+	</Element>
+	<Element name="helpDropdown">
+		<By>ByXPath</By>
+		<Address>//a[@href='{0}']</Address>
+	</Element>
+	<Element name="Joomla">
+		<By>ByXPath</By>
+		<Address>//div[@class='nav-collapse collapse']//a[@title='Preview
+			Joomla']
+		</Address>
+	</Element>
+	<Element name="userMenu">
+		<By>ByXPath</By>
+		<Address>//li[@class='dropdown open']//div[contains(.,'User Menu')]
+		</Address>
+	</Element>
+	<Element name="nameUser">
+		<By>ByXPath</By>
+		<Address>//li[@class='dropdown open']//strong</Address>
+	</Element>
+	<Element name="btnEditAccount">
+		<By>ByXPath</By>
+		<Address>//li[@class='dropdown open']//a[contains(.,'Edit Account')]
+		</Address>
+	</Element>
+	<Element name="btnLogout">
+		<By>ByXPath</By>
+		<Address>//li[@class='dropdown open']//a[contains(.,'Logout')]
+		</Address>
+	</Element>
+	<Element name="dropdownSystem">
+		<By>ByXPath</By>
+		<Address>//a[@href='{0}']</Address>
+	</Element>
+	<Element name="menu">
+		<By>ByXPath</By>
+		<Address>//li[@class='dropdown']/a[contains(.,'{0}')]</Address>
+	</Element>
+	<Element name="openPanel1">
+		<By>ByXPath</By>
+		<Address>//ul[@id='menu']/li/a[contains(.,'{0}')]//ancestor::li//a[text()='{1}' and @data-toggle='dropdown']
+		</Address>
+	</Element>
+	<Element name="openPanel2">
+		<By>ByXPath</By>
+		<Address>//ul[@id='menu']//a[normalize-space(text())='{0}']//ancestor::ul//a[@class='dropdown-toggle menu-banners' and normalize-space(text())='{1}']//ancestor::div[@class='nav-collapse collapse']//ul[@id='nav-empty']//a[normalize-space(text())='{2}']
+		</Address>
+	</Element>
+
+</interfaces>
+
+
+ 

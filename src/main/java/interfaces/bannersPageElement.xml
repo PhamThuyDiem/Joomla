@@ -1,0 +1,216 @@
+<interface>
+	<Element name="btnToolbar">
+		<By>ByXPath</By>
+		<Address>//button[contains(.,'{0}')]</Address>
+	</Element>
+	<Element name="txtSearch">
+		<By>ByXPath</By>
+		<Address>//input[@id='filter_search']</Address>
+	</Element>
+	<Element name="btnSearch">
+		<By>ByXPath</By>
+		<Address>//button[@data-original-title='Search']//span</Address>
+	</Element>
+	<Element name="textAlertSuccess">
+		<By>ByXPath</By>
+		<Address>//div[@class='alert alert-success']//div[contains(.,'{0}')]
+		</Address>
+	</Element>
+	<Element name="displayClient">
+		<By>ByXPath</By>
+		<Address>//div[@id='j-main-container']//div[@class="pull-left"]//a[normalize-space(text())='{0}']
+		</Address>
+	</Element>
+	<!-- <Element name="textBannerName">
+		<By>ByXPath</By>
+		<Address>//table[@id='articleList']//a[normalize-space(text())='{0}']
+		</Address>
+	</Element> -->
+
+	<Element name="iconUnpublish">
+		<By>ByXPath</By>
+		<Address>//table//a[normalize-space(text())='{0}']//ancestor::tr//div[@class='btn-group']//span[@class='icon-unpublish']
+		</Address>
+	</Element>
+	<Element name="checkboxBanners">
+		<By>ByXPath</By>
+		<Address>//table//a[normalize-space(text())='{0}']//ancestor::tr//td[@class='center']//input
+		</Address>
+	</Element>
+	<Element name="btnUnpublish">
+		<By>ByXPath</By>
+		<Address>//div[@id='toolbar-unpublish']
+		</Address>
+	</Element>
+	<Element name="btnArchive">
+		<By>ByXPath</By>
+		<Address>//div[@id='toolbar-archive']
+		</Address>
+	</Element>
+	<Element name="textAlertMessage">
+		<By>ByXPath</By>
+		<Address>//div[@class='alert-message']
+		</Address>
+	</Element>
+	<Element name="textBannerName">
+		<By>ByXPath</By>
+		<Address>//table//a[normalize-space(text())='{0}']
+		</Address>
+	</Element>
+	<Element name="textCategoryName">
+		<By>ByXPath</By>
+		<Address>//table//a[normalize-space(text())='{0}']//ancestor::td//div[normalize-space(text())='{1}']
+		</Address>
+	</Element>
+	<Element name="nameClient">
+		<By>ByXPath</By>
+		<Address>//table//a[normalize-space(text())='{0}']//ancestor::tr//td[normalize-space(text())='{1}']
+		</Address>
+	</Element>
+	<Element name="countRowClient">
+		<By>ByXPath</By>
+		<Address>//tbody//tr
+		</Address>
+	</Element>
+	<Element name="countBanners">
+		<By>ByXPath</By>
+		<Address>//tbody//tr
+		</Address>
+	</Element>
+	<Element name="cbbListLimit">
+		<By>ByXPath</By>
+		<Address>//div[@id='list_limit_chzn']
+		</Address>
+	</Element>
+	<Element name="optionSelectListLimit">
+		<By>ByXPath</By>
+		<Address>//div[@id='list_limit_chzn']//li[normalize-space(text())='{0}']
+		</Address>
+	</Element>
+	<Element name="cbbSearchTools">
+		<By>ByXpath</By>
+		<Address>//div[@id='j-main-container']//button[normalize-space(text())='Search Tools']
+		</Address>
+	</Element>
+	<Element name="cbbSelectStatus">
+		<By>ByXPath</By>
+		<Address>//select[@id='filter_published']//ancestor::div[@class='js-stools-field-filter']
+		</Address>
+	</Element>
+	<Element name="optionSelectStatus">
+		<By>ByXPath</By>
+		<Address>//div[@id='filter_published_chzn']//li[contains(text(),'{0}')]
+		</Address>
+	</Element>
+	<Element name="btnTrash">
+		<By>ByXPath</By>
+		<Address>//div[@id='toolbar-trash']
+		</Address>
+	</Element>
+	<Element name="btnHelp">
+		<By>ByXPath</By>
+		<Address>//div[@id='toolbar-help']
+		</Address>
+	</Element>
+	<Element name="cbbCategory">
+		<By>ByXPath</By>
+		<Address>//div[@id='filter_category_id_chzn']//ancestor::div[@class='js-stools-field-filter']
+		</Address>
+	</Element>
+	<Element name="optionCategory">
+		<By>ByXPath</By>
+		<Address>//div[@id='filter_category_id_chzn']//li[contains(text(),'{0}')]
+		</Address>
+	</Element>
+	<Element name="cbbClient">
+		<By>ByXPath</By>
+		<Address>//div[@id='filter_client_id_chzn']//ancestor::div[@class='js-stools-field-filter']
+		</Address>
+	</Element>
+	<Element name="optionClient">
+		<By>ByXPath</By>
+		<Address>//div[@id='filter_client_id_chzn']//li[contains(text(),'{0}')]
+		</Address>
+	</Element>
+	<Element name="iconCheckedOut">
+		<By>ByXPath</By>
+		<Address>//table[@id='articleList']//a[normalize-space(text())='{0}']//ancestor::div/a/span[@class='icon-checkedout']
+		</Address>
+	</Element>
+	<Element name="btnCheckIn">
+		<By>ByXPath</By>
+		<Address>//div[@id='toolbar-checkin']
+		</Address>
+	</Element>
+	<Element name="countRowBanners">
+		<By>ByXPath</By>
+		<Address>//tbody//tr
+		</Address>
+	</Element>
+	<Element name="btnNextPagination">
+		<By>ByXPath</By>
+		<Address>//a[@data-original-title='Next']
+		</Address>
+	</Element>
+	<Element name="countPaginationBanner">
+		<By>ByXPath</By>
+		<Address>//ul[@class='pagination-list']//li
+		</Address>
+	</Element>
+	<Element name="selectRowID">
+		<By>ByXPath</By>
+		<Address>//tbody//tr[{0}]//td[count(//table[@id='articleList']//th)]
+		</Address>
+	</Element>
+	<Element name="headerLink">
+		<By>ByXPath</By>
+		<Address>//table[@id='articleList']//a[normalize-space(text())='{0}']
+		</Address>
+	</Element>
+	<Element name="subMenu">
+		<By>ByXPath</By>
+		<Address>//ul[@id='submenu']//a[normalize-space(text())='{0}']
+		</Address>
+	</Element>
+	<Element name="scrollTop">
+		<By>ByXPath</By>
+		<Address>html/body/nav/div/div
+		</Address>
+	</Element>
+		<Element name="txtLimit">
+		<By>ByXPath</By>
+		<Address>//div[@id='list_limit_chzn']//input[@type='text']
+		</Address>
+	</Element>
+	<Element name="clickLimit">
+		<By>ByXPath</By>
+		<Address>//div[@id='list_limit_chzn']//ul[@class='chzn-results']//li[@data-option-array-index='{0}']
+		</Address>
+	</Element>
+	<Element name="textNoMatchingResult">
+		<By>ByXPath</By>
+		<Address>//div[@id='j-main-container']//div[@class='alert alert-no-items']
+		</Address>
+	</Element>
+	<Element name="inputClient">
+		<By>ByXPath</By>
+		<Address>//div[@id='filter_client_id_chzn']//input
+		</Address>
+	</Element>
+	<Element name="indexOptionClient">
+		<By>ByXPath</By>
+		<Address>//div[@id='filter_client_id_chzn']//ul[@class='chzn-results']//li[@data-option-array-index='{0}']
+		</Address>
+	</Element>
+	<Element name="inputCategory">
+		<By>ByXPath</By>
+		<Address>//div[@id='filter_category_id_chzn']//input
+		</Address>
+	</Element>
+	<Element name="indexOptionCategory">
+		<By>ByXPath</By>
+		<Address>//div[@id='filter_category_id_chzn']//ul[@class='chzn-results']//li[@data-option-array-index='{0}']
+		</Address>
+	</Element>
+</interface>
+

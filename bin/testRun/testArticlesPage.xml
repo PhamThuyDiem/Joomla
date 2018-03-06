@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite">
+	<test name="testArticlesPage">
+		<parameter name="browser" value="Chrome" />
+		<parameter name="timeOutPageLoad" value="20" />
+		<parameter name="timeOutElementLoad" value="20" />
+		<classes>
+			<class name="testCase.ARTICLE_TC010_VerifyUserCanSearchForArticlesUsingTheFilterDropdownLists" />
+			<!-- <class name="testCase.ARTICLE_TC001_VerifyUserCanCreateNewArticleWithValidInformation" />
+			<class name="testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle" />
+			<class name="testCase.ARTICLE_TC003_VerifyUserCanPublishAnUnpublishedArticle" />
+			<class name="testCase.ARTICLE_TC004_VerifyUserCanUnpublishAPublishedArticle" />
+			<class name="testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive" />
+			<class name="testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle" />
+			<class name="testCase.ARTICLE_TC007_VerifyUserCanMoveAnArticleToTrashSection" />
+			<class name="testCase.ARTICLE_TC008_VerifyUserCanAccessArticlesHelpSection" />
+			<class name="testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField" />
+			<class name="testCase.ARTICLE_TC010_VerifyUserCanSearchForArticlesUsingTheFilterDropdownLists" />
+			<class name="testCase.ARTICLE_TC011_VerifyUserCanSortTheArticleTableByIDColumn" />
+			<class name="testCase.ARTICLE_TC012_VerifyUserCanPagingTheArticlesUsingThePagingControl" /> 
+			<class name="testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent" /> 
+			<class name="testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn" /> 
+			<class name="testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn" /> 
+			<class name="testCase.ARTICLE_TC016_VerifyUserCanChangeTheFeaturePropertyOfArticlesUsingTheFeaturedColumn" /> 
+			<class name="testCase.ARTICLE_TC017_VerifyUserCanCreateANewArticleWithPublicAccessLevelProperty" />  -->
+		</classes>
+	</test>
+</suite>

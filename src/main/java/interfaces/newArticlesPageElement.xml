@@ -1,0 +1,81 @@
+<interfaces>
+	<Element name="txtTitle">
+		<By>ByXPath</By>
+		<Address>//input[@id='jform_title']</Address>
+	</Element>
+	<Element name="cbbCategory">
+		<By>ByXPath</By>
+		<Address>//div[@id='jform_catid_chzn']</Address>
+	</Element>
+	<Element name="selectCategory">
+		<By>ByXPath</By>
+		<Address>//li[contains(.,'{0}')]</Address>
+	</Element>
+	<Element name="ifContent">
+		<By>ByCssSelector</By>
+		<Address>div[id='mceu_93']>iframe[id='jform_articletext_ifr']
+		</Address>
+	</Element>
+	<Element name="tbContent">
+		<By>ByCssSelector</By>
+		<Address>body[id='tinymce']</Address>
+	</Element>
+	<Element name="toolbar">
+		<By>ByXPath</By>
+		<Address>//div[@id='{0}']</Address>
+	</Element>
+	<Element name="cbbStatus">
+		<By>ByXPath</By>
+		<Address>//div[@id='jform_state_chzn']//a</Address>
+	</Element>
+	<Element name="seclectStatus">
+		<By>ByXPath</By>
+		<Address>//div[@id='jform_state_chzn']//li[contains(.,'{0}')]</Address>
+	</Element>
+	<Element name="seclectStatus">
+		<By>ByXPath</By>
+		<Address>//div[@id='jform_state_chzn']//li[contains(.,'{0}')]</Address>
+	</Element>
+	<Element name="alertSuccess">
+		<By>ByXPath</By>
+		<Address>//div[@class='alert alert-success']//div[contains(.,'{0}')]
+		</Address>
+	</Element>
+	<Element name="cbbAccess">
+		<By>ByXPath</By>
+		<Address>//div[@id='jform_access_chzn']
+		</Address>
+	</Element>
+	<Element name="selectAccess">
+		<By>ByXPath</By>
+		<Address>//div[@id='jform_access_chzn']//li[normalize-space(text())='{0}']
+		</Address>
+	</Element>
+	<Element name="clickImage">
+		<By>ByXPath</By>
+		<Address>//div[@id='mceu_89-body']
+		</Address>
+	</Element>
+	<Element name="ifImage">
+		<By>ByXPath</By>
+		<Address>//div[@class='mce-container mce-panel mce-floatpanel mce-window mce-in']//div[@class='mce-container-body mce-window-body mce-abs-layout']/iframe[1]
+		</Address>
+	</Element>
+	<Element name="chooseImage">
+		<By>ByCssSelector</By>
+		<Address>a[title='{0}']
+		</Address>
+	</Element>
+	<Element name="fsUpload">
+		<By>ByXPath</By>
+		<Address>//div[@class='container-popup']//iframe[@id='imageframe' or @class='imageframe']</Address>	
+	</Element>
+	<Element name="btnInsertImage">
+		<By>ByXPath</By>
+		<Address>//button[text()='Insert']</Address>	
+	</Element>
+	<Element name="jformTxtTitle">
+		<By>ByXPath</By>
+		<Address>//input[@id='jform_title']</Address>	
+	</Element>
+</interfaces>
