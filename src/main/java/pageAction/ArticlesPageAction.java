@@ -152,6 +152,7 @@ public class ArticlesPageAction extends CommonAction {
 	 */
 	public void clickPublish() {
 		Configure.waitElementDisplay(3000);
+		scrollTop();
 		click(readElement(Interfaces.ArticlesPage.btnToolbar, "Publish"));
 	}
 
@@ -160,6 +161,7 @@ public class ArticlesPageAction extends CommonAction {
 	 */
 	public void clickUnpublish() {
 		Configure.waitElementDisplay(3000);
+		scrollTop();
 		click(readElement(Interfaces.ArticlesPage.btnToolbar, "Unpublish"));
 	}
 
@@ -206,6 +208,7 @@ public class ArticlesPageAction extends CommonAction {
 	 */
 	public void clickArchive() {
 		Configure.waitElementDisplay(3000);
+		scrollTop();
 		click(readElement(Interfaces.ArticlesPage.btnToolbar, "Archive"));
 	}
 
@@ -228,6 +231,7 @@ public class ArticlesPageAction extends CommonAction {
 	 */
 	public void clickCheckIn() {
 		Configure.waitElementDisplay(3000);
+		scrollTop();
 		click(readElement(Interfaces.ArticlesPage.btnToolbar, "Check-in"));
 	}
 
@@ -291,6 +295,7 @@ public class ArticlesPageAction extends CommonAction {
 	 */
 	public void clickTrash() {
 		Configure.waitElementDisplay(3000);
+		scrollTop();
 		click(readElement(Interfaces.ArticlesPage.btnToolbar, "Trash"));
 	}
 
@@ -657,6 +662,14 @@ public class ArticlesPageAction extends CommonAction {
 	public boolean clickOrderingColumnFirst(String title, String titleNew) {
 		Configure.waitElementDisplay(3000);
 		listLimit("All");
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		Configure.waitElementDisplay(3000);
+		focus(readElement(Interfaces.ArticlesPage.orderingColumn));
 		click(readElement(Interfaces.ArticlesPage.orderingColumn));
 		return checkPositionFirst(title, titleNew);
 	}
@@ -671,6 +684,12 @@ public class ArticlesPageAction extends CommonAction {
 	public boolean clickOrderingColumnLast(String titleNew, String title) {
 		Configure.waitElementDisplay(3000);
 		listLimit("All");
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		click(readElement(Interfaces.ArticlesPage.orderingColumn));
 		return checkPositionLast(titleNew, title);
 	}

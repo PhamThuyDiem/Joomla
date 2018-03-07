@@ -322,6 +322,13 @@ public class CommonAction {
 	}
 	
 	/**
+	 * scroll top
+	 */
+	public void scrollTop() {
+		((JavascriptExecutor) Configure.driver).executeScript("window.scroll(0,0)", "");
+	}
+	
+	/**
 	 * index element in table
 	 * @param path
 	 * @return

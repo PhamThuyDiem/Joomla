@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Verify that user can change the quantity of items displayed in banner table]]>
+      <![CDATA[Verify user can change the order of articles using the Ordering column]]>
     </line>
   </reporter-output>
-  <suite started-at="2018-03-07T02:30:07Z" name="Test-Suite" finished-at="2018-03-07T02:31:48Z" duration-ms="100569">
+  <suite started-at="2018-03-07T10:21:12Z" name="Test-Suite" finished-at="2018-03-07T10:23:20Z" duration-ms="127274">
     <groups>
     </groups>
-    <test started-at="2018-03-07T02:30:07Z" name="testBannersPage" finished-at="2018-03-07T02:31:48Z" duration-ms="100569">
-      <class name="testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable@5f683daf]" started-at="2018-03-07T09:30:07Z" name="beforeMethod" finished-at="2018-03-07T09:30:11Z" duration-ms="3965" status="PASS">
+    <test started-at="2018-03-07T10:21:12Z" name="testArticlesPage" finished-at="2018-03-07T10:23:20Z" duration-ms="127274">
+      <class name="testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn@5f683daf]" started-at="2018-03-07T17:21:13Z" name="beforeMethod" finished-at="2018-03-07T17:21:18Z" duration-ms="5776" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[IE]]>
               </value>
             </param>
             <param index="1">
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable@5f683daf]" started-at="2018-03-07T09:30:11Z" name="login" data-provider="Authentication" finished-at="2018-03-07T09:31:47Z" duration-ms="95951" status="PASS">
+        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn@5f683daf]" started-at="2018-03-07T17:21:18Z" name="login" data-provider="Authentication" finished-at="2018-03-07T17:23:19Z" duration-ms="120929" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,21 +50,46 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[20]]>
+                <![CDATA[Test Article 1520418072993]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sample Data-Articles]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[this is article content]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Test Article New 1520418072993]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Sample Data-Articles]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[this is modified content]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Verify that user can change the quantity of items displayed in banner table]]>
+              <![CDATA[Verify user can change the order of articles using the Ordering column]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable@5f683daf]" started-at="2018-03-07T09:31:47Z" name="afterMethod" finished-at="2018-03-07T09:31:48Z" duration-ms="624" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn@5f683daf]" started-at="2018-03-07T17:23:19Z" name="afterMethod" finished-at="2018-03-07T17:23:20Z" duration-ms="540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable -->
-    </test> <!-- testBannersPage -->
+      </class> <!-- testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn -->
+    </test> <!-- testArticlesPage -->
   </suite> <!-- Test-Suite -->
 </testng-results>

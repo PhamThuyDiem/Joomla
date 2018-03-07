@@ -177,7 +177,13 @@
 		<Address>html/body/nav/div/div
 		</Address>
 	</Element>
-		<Element name="txtLimit">
+	<Element name="header">
+		<By>ByXPath</By>
+		<Address>html/body/header
+		</Address>
+	</Element>
+	
+	<Element name="txtLimit">
 		<By>ByXPath</By>
 		<Address>//div[@id='list_limit_chzn']//input[@type='text']
 		</Address>
