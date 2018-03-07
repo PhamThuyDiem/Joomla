@@ -2,15 +2,15 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Verify user can search for articles using the filter text field]]>
+      <![CDATA[Verify that user can change the quantity of items displayed in banner table]]>
     </line>
   </reporter-output>
-  <suite started-at="2018-03-06T07:35:32Z" name="Test-Suite" finished-at="2018-03-06T07:35:59Z" duration-ms="26895">
+  <suite started-at="2018-03-07T02:30:07Z" name="Test-Suite" finished-at="2018-03-07T02:31:48Z" duration-ms="100569">
     <groups>
     </groups>
-    <test started-at="2018-03-06T07:35:32Z" name="testArticlesPage" finished-at="2018-03-06T07:35:59Z" duration-ms="26895">
-      <class name="testCase.ARTICLE_TC010_VerifyUserCanSearchForArticlesUsingTheFilterDropdownLists">
-        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.ARTICLE_TC010_VerifyUserCanSearchForArticlesUsingTheFilterDropdownLists@5f683daf]" started-at="2018-03-06T14:35:32Z" name="beforeMethod" finished-at="2018-03-06T14:35:37Z" duration-ms="4510" status="PASS">
+    <test started-at="2018-03-07T02:30:07Z" name="testBannersPage" finished-at="2018-03-07T02:31:48Z" duration-ms="100569">
+      <class name="testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable@5f683daf]" started-at="2018-03-07T09:30:07Z" name="beforeMethod" finished-at="2018-03-07T09:30:11Z" duration-ms="3965" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.ARTICLE_TC010_VerifyUserCanSearchForArticlesUsingTheFilterDropdownLists@5f683daf]" started-at="2018-03-06T14:35:37Z" name="login" data-provider="Authentication" finished-at="2018-03-06T14:35:58Z" duration-ms="21450" status="PASS">
+        <test-method signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable@5f683daf]" started-at="2018-03-07T09:30:11Z" name="login" data-provider="Authentication" finished-at="2018-03-07T09:31:47Z" duration-ms="95951" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,81 +50,21 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Test Article 1520321732579]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[- Park Site]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Published]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[Registered]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[this is article content]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Published]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[- Park Site]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[Registered]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[diempham]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[icon-publish]]>
-              </value>
-            </param>
-            <param index="13">
-              <value>
-                <![CDATA[- Park Site]]>
-              </value>
-            </param>
-            <param index="14">
-              <value>
-                <![CDATA[Registered]]>
-              </value>
-            </param>
-            <param index="15">
-              <value>
-                <![CDATA[diempham]]>
+                <![CDATA[20]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Verify user can search for articles using the filter text field]]>
+              <![CDATA[Verify that user can change the quantity of items displayed in banner table]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCase.ARTICLE_TC010_VerifyUserCanSearchForArticlesUsingTheFilterDropdownLists@5f683daf]" started-at="2018-03-06T14:35:58Z" name="afterMethod" finished-at="2018-03-06T14:35:59Z" duration-ms="899" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable@5f683daf]" started-at="2018-03-07T09:31:47Z" name="afterMethod" finished-at="2018-03-07T09:31:48Z" duration-ms="624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- testCase.ARTICLE_TC010_VerifyUserCanSearchForArticlesUsingTheFilterDropdownLists -->
-    </test> <!-- testArticlesPage -->
+      </class> <!-- testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable -->
+    </test> <!-- testBannersPage -->
   </suite> <!-- Test-Suite -->
 </testng-results>

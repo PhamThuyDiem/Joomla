@@ -139,7 +139,7 @@ public class NewArticlesPageAction extends CommonAction {
 	 */
 	public void clickImage() {
 		scrollElement(readElement(Interfaces.NewArticles.jformTxtTitle));
-		click(readElement(Interfaces.NewArticles.clickImage));
+		click(readElement(Interfaces.NewArticles.optionImage));
 	}
 
 	/**

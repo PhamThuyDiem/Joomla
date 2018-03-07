@@ -51,7 +51,7 @@
 		<Address>//div[@id='jform_access_chzn']//li[normalize-space(text())='{0}']
 		</Address>
 	</Element>
-	<Element name="clickImage">
+	<Element name="optionImage">
 		<By>ByXPath</By>
 		<Address>//div[@id='mceu_89-body']
 		</Address>

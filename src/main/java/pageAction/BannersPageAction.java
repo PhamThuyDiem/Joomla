@@ -19,6 +19,7 @@ public class BannersPageAction extends CommonAction {
 	 * click btn New
 	 */
 	public void clickNew() {
+		Configure.waitElementDisplay(3000);
 		click(readElement(Interfaces.ClientsPage.btnToolbar, "New"));
 	}
 
@@ -35,6 +36,7 @@ public class BannersPageAction extends CommonAction {
 	 * click id column
 	 */
 	public void clickIDColumn() {
+		Configure.waitElementDisplay(3000);
 		click(readElement(Interfaces.BannersPage.headerLink, "ID"));
 	}
 
@@ -42,6 +44,7 @@ public class BannersPageAction extends CommonAction {
 	 * click sub menu clients
 	 */
 	public void clickSubMenuClients() {
+		Configure.waitElementDisplay(3000);
 		click(readElement(Interfaces.BannersPage.subMenu, "Clients"));
 	}
 	/**
@@ -87,7 +90,6 @@ public class BannersPageAction extends CommonAction {
 		for (int i = 0; i < numberTitle; i++) {
 			if (arrayID[i] == arrayCheck[i]) {
 				row = String.valueOf(i + 1);
-				//System.out.println(row + ":" + arrayID[i] + " " + arrayCheck[i]);
 				result = true;
 			}
 		}
@@ -119,7 +121,6 @@ public class BannersPageAction extends CommonAction {
 		for (int i = 0; i < numberTitle; i++) {
 			if (arrayID[i] == arrayCheck[numberTitle - i - 1]) {
 				row = String.valueOf(i + 1);
-				//System.out.println(row + ":" + arrayID[i] + " " + arrayCheck[i]);
 				result = true;
 			}
 		}
@@ -233,8 +234,8 @@ public class BannersPageAction extends CommonAction {
 		click(readElement(Interfaces.BannersPage.cbbListLimit));
 		String index = getDataOptionArrayIndex(readElement(Interfaces.BannersPage.optionSelectListLimit, item));
 		sendkeys(readElement(Interfaces.BannersPage.txtLimit),item);
-		scrollElement(readElement(Interfaces.BannersPage.scrollTop));
-		click(readElement(Interfaces.BannersPage.clickLimit ,index));	
+		scrollElement(readElement(Interfaces.BannersPage.top));
+		click(readElement(Interfaces.BannersPage.optionLimit ,index));	
 	}
 
 	/**
@@ -253,7 +254,7 @@ public class BannersPageAction extends CommonAction {
 	 */
 	public void clickUnpublish() {
 		Configure.waitElementDisplay(3000);
-		scrollElement(readElement(Interfaces.BannersPage.scrollTop));
+		scrollElement(readElement(Interfaces.BannersPage.top));
 		click(readElement(Interfaces.BannersPage.btnUnpublish));
 	}
 
@@ -262,6 +263,7 @@ public class BannersPageAction extends CommonAction {
 	 */
 	public void clickArchive() {
 		Configure.waitElementDisplay(3000);
+		scrollElement(readElement(Interfaces.BannersPage.top));
 		click(readElement(Interfaces.BannersPage.btnArchive));
 	}
 
@@ -270,6 +272,7 @@ public class BannersPageAction extends CommonAction {
 	 */
 	public void clickCheckIn() {
 		Configure.waitElementDisplay(3000);
+		scrollElement(readElement(Interfaces.BannersPage.top));
 		click(readElement(Interfaces.BannersPage.btnCheckIn));
 	}
 
@@ -278,6 +281,7 @@ public class BannersPageAction extends CommonAction {
 	 */
 	public void clickTrash() {
 		Configure.waitElementDisplay(3000);
+		scrollElement(readElement(Interfaces.BannersPage.top));
 		click(readElement(Interfaces.BannersPage.btnTrash));
 	}
 
@@ -292,6 +296,7 @@ public class BannersPageAction extends CommonAction {
 		boolean result = false;
 		boolean checkAlert = getTextElement(readElement(Interfaces.BannersPage.textAlertMessage))
 				.equals("1 banner unpublished.");
+		searchText(banner);
 		result = isElementDisplay(readElement(Interfaces.BannersPage.iconUnpublish, banner));
 		return result && checkAlert;
 	}
@@ -397,7 +402,7 @@ public class BannersPageAction extends CommonAction {
 		click(readElement(Interfaces.BannersPage.cbbClient));
 		String index = getDataOptionArrayIndex(readElement(Interfaces.BannersPage.optionClient, client));
 		sendkeys(readElement(Interfaces.BannersPage.inputClient), client);
-		scrollElement(readElement(Interfaces.BannersPage.scrollTop));
+		scrollElement(readElement(Interfaces.BannersPage.top));
 		click(readElement(Interfaces.BannersPage.indexOptionClient ,index));
 	}
 
@@ -411,7 +416,7 @@ public class BannersPageAction extends CommonAction {
 		click(readElement(Interfaces.BannersPage.cbbCategory));
 		String index = getDataOptionArrayIndex(readElement(Interfaces.BannersPage.optionCategory, category));
 		sendkeys(readElement(Interfaces.BannersPage.inputCategory), category);
-		scrollElement(readElement(Interfaces.BannersPage.scrollTop));
+		scrollElement(readElement(Interfaces.BannersPage.top));
 		click(readElement(Interfaces.BannersPage.indexOptionCategory ,index));
 	}
 
@@ -553,7 +558,7 @@ public class BannersPageAction extends CommonAction {
 	 */
 	public boolean checkItemPerPage(String item) {
 		int quantityItem = Integer.parseInt(item);
-		if (countElements(readElement(Interfaces.BannersPage.rowBanner)) == quantityItem)
+		if (countElements(readElement(Interfaces.BannersPage.rowBanners)) == quantityItem)
 			return true;
 		return false;
 	}
@@ -569,7 +574,7 @@ public class BannersPageAction extends CommonAction {
 		boolean checkQuantityItem = false;
 		int pagination = pagination(readElement(Interfaces.BannersPage.countPaginationBanner));
 		int quantityItem = Integer.parseInt(item);
-		if (pagination > 0)
+		if (pagination > 0) {
 			while (isElementDisplay(readElement(Interfaces.BannersPage.btnNextPagination)))
 				if (isElementDisplay(readElement(Interfaces.BannersPage.btnNextPagination))) {
 					scrollElement(readElement(Interfaces.BannersPage.btnNextPagination));
@@ -577,9 +582,10 @@ public class BannersPageAction extends CommonAction {
 					if (isElementDisplay(readElement(Interfaces.BannersPage.btnNextPagination)))
 						checkItemPerPage = checkItemPerPage(item);
 				}
+		}
 		if (!isElementDisplay(readElement(Interfaces.BannersPage.btnNextPagination))) {
-			if (countElements(readElement(Interfaces.BannersPage.rowBanner)) <= quantityItem)
-				return checkQuantityItem = true;
+			if (countElements(readElement(Interfaces.BannersPage.rowBanners)) <= quantityItem)
+				checkQuantityItem = true;
 		}
 		return checkItemPerPage && checkQuantityItem;
 	}

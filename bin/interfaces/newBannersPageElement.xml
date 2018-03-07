@@ -69,7 +69,7 @@
 		<Address>//div[@id='jform_catid_chzn']//div[@class='chzn-search']//input
 		</Address>
 	</Element>
-	<Element name="clickCategoryIndex">
+	<Element name="indexCategory">
 		<By>ByXPath</By>
 		<Address>//div[@id='jform_catid_chzn']//ul[@class='chzn-results']//li[@data-option-array-index='{0}']
 		</Address>
@@ -79,7 +79,7 @@
 		<Address>//div[@id='jform_cid_chzn']//div[@class='chzn-search']//input
 		</Address>
 	</Element>
-	<Element name="clickClientIndex">
+	<Element name="indexClient">
 		<By>ByXPath</By>
 		<Address>//div[@id='jform_cid_chzn']//ul[@class='chzn-results']//li[@data-option-array-index='{0}']
 		</Address>
