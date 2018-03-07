@@ -241,7 +241,7 @@
 		<Address>//div[@id='list_limit_chzn']//input[@type='text']
 		</Address>
 	</Element>
-	<Element name="clickLimit">
+	<Element name="optionLimit">
 		<By>ByXPath</By>
 		<Address>//div[@id='list_limit_chzn']//ul[@class='chzn-results']//li[@data-option-array-index='{0}']
 		</Address>

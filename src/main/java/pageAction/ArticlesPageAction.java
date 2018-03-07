@@ -47,8 +47,7 @@ public class ArticlesPageAction extends CommonAction {
 	public boolean checkSavedSuccessfully(String title) {
 		Configure.waitElementDisplay(3000);
 		boolean result = false;
-		boolean checkAlert = getTextElement(readElement(Interfaces.ArticlesPage.alertMessage))
-				.equals("Article saved.");
+		boolean checkAlert = getTextElement(readElement(Interfaces.ArticlesPage.alertMessage)).equals("Article saved.");
 		sendkeys(readElement(Interfaces.ArticlesPage.txtSearch), title);
 		click(readElement(Interfaces.ArticlesPage.btnSearch));
 		result = isElementDisplay(readElement(Interfaces.ArticlesPage.txtNameArticle, title));
@@ -172,8 +171,7 @@ public class ArticlesPageAction extends CommonAction {
 	 */
 	public boolean checkPublishedSuccessfully(String title) {
 		Configure.waitElementDisplay(3000);
-		if (getTextElement(readElement(Interfaces.ArticlesPage.alertMessage))
-				.equals("1 article published.")) {
+		if (getTextElement(readElement(Interfaces.ArticlesPage.alertMessage)).equals("1 article published.")) {
 			sendkeys(readElement(Interfaces.ArticlesPage.txtSearch), title);
 			click(readElement(Interfaces.ArticlesPage.btnSearch));
 			if (isElementDisplay(readElement(Interfaces.ArticlesPage.txtNameArticle, title))
@@ -192,8 +190,7 @@ public class ArticlesPageAction extends CommonAction {
 	 */
 	public boolean checkUnpublishedSuccessfully(String title) {
 		Configure.waitElementDisplay(3000);
-		if (getTextElement(readElement(Interfaces.ArticlesPage.alertMessage))
-				.equals("1 article unpublished.")) {
+		if (getTextElement(readElement(Interfaces.ArticlesPage.alertMessage)).equals("1 article unpublished.")) {
 			sendkeys(readElement(Interfaces.ArticlesPage.txtSearch), title);
 			click(readElement(Interfaces.ArticlesPage.btnSearch));
 			if (isElementDisplay(readElement(Interfaces.ArticlesPage.txtNameArticle, title))
@@ -220,8 +217,7 @@ public class ArticlesPageAction extends CommonAction {
 	 */
 	public boolean checkArchivedSuccessfully(String title) {
 		Configure.waitElementDisplay(3000);
-		if (getTextElement(readElement(Interfaces.ArticlesPage.alertMessage))
-				.equals("1 article archived.")) {
+		if (getTextElement(readElement(Interfaces.ArticlesPage.alertMessage)).equals("1 article archived.")) {
 			return true;
 		}
 		return false;
@@ -441,9 +437,9 @@ public class ArticlesPageAction extends CommonAction {
 		isElementDisplay(readElement(Interfaces.ArticlesPage.cbbListLimit));
 		click(readElement(Interfaces.ArticlesPage.cbbListLimit));
 		String index = getDataOptionArrayIndex(readElement(Interfaces.ArticlesPage.selectListLimit, item));
-		sendkeys(readElement(Interfaces.ArticlesPage.inputLimit),item);
+		sendkeys(readElement(Interfaces.ArticlesPage.inputLimit), item);
 		scrollElement(readElement(Interfaces.ArticlesPage.scrollTop));
-		click(readElement(Interfaces.ArticlesPage.clickLimit ,index));
+		click(readElement(Interfaces.ArticlesPage.optionLimit, index));
 	}
 
 	/**
@@ -513,8 +509,7 @@ public class ArticlesPageAction extends CommonAction {
 		int arrayCheck[] = new int[numberTitle];
 		for (int i = 0; i < numberTitle; i++) {
 			row = String.valueOf(i + 1);
-			idString = Configure.driver.findElement(readElement(Interfaces.ArticlesPage.selectRowID, row))
-					.getText();
+			idString = Configure.driver.findElement(readElement(Interfaces.ArticlesPage.selectRowID, row)).getText();
 			idNumber = Integer.parseInt(idString);
 			arrayID[i] = idNumber;
 			arrayCheck[i] = idNumber;
@@ -545,8 +540,7 @@ public class ArticlesPageAction extends CommonAction {
 		int arrayCheck[] = new int[numberTitle];
 		for (int i = 0; i < numberTitle; i++) {
 			row = String.valueOf(i + 1);
-			idString = Configure.driver.findElement(readElement(Interfaces.ArticlesPage.selectRowID, row))
-					.getText();
+			idString = Configure.driver.findElement(readElement(Interfaces.ArticlesPage.selectRowID, row)).getText();
 			idNumber = Integer.parseInt(idString);
 			arrayID[i] = idNumber;
 			arrayCheck[i] = idNumber;
@@ -629,19 +623,21 @@ public class ArticlesPageAction extends CommonAction {
 	 * verify check position first when click ordering column
 	 */
 	public boolean checkPositionFirst = false;
+
 	public boolean checkPositionFirst(String title, String titleNew) {
 		Configure.waitElementDisplay(3000);
 		int positionTitle = indexElement(readElement(Interfaces.ArticlesPage.indexElement, title));
 		int positionTitleNew = indexElement(readElement(Interfaces.ArticlesPage.indexElement, titleNew));
-		if (positionTitle > positionTitleNew) 
+		if (positionTitle > positionTitleNew)
 			checkPositionFirst = true;
 		return checkPositionFirst;
 	}
 
 	/**
-	 * verify check position last when click ordering column 
+	 * verify check position last when click ordering column
 	 */
 	public boolean checkPositionLast = false;
+
 	public boolean checkPositionLast(String title, String titleNew) {
 		Configure.waitElementDisplay(3000);
 		int positionTitle = indexElement(readElement(Interfaces.ArticlesPage.indexElement, title));
@@ -661,11 +657,7 @@ public class ArticlesPageAction extends CommonAction {
 	public boolean clickOrderingColumnFirst(String title, String titleNew) {
 		Configure.waitElementDisplay(3000);
 		listLimit("All");
-		try {
-			click(readElement(Interfaces.ArticlesPage.orderingColumn));
-		} catch (Exception e) {
-			click(readElement(Interfaces.ArticlesPage.orderingColumn));
-		}
+		click(readElement(Interfaces.ArticlesPage.orderingColumn));
 		return checkPositionFirst(title, titleNew);
 	}
 
@@ -718,8 +710,7 @@ public class ArticlesPageAction extends CommonAction {
 		Configure.waitElementDisplay(3000);
 		boolean result = false;
 		if (isElementDisplay(readElement(Interfaces.ArticlesPage.iconUnpublish, title))
-				&& getTextElement(readElement(Interfaces.ArticlesPage.alertMessage))
-						.equals("1 article unpublished."))
+				&& getTextElement(readElement(Interfaces.ArticlesPage.alertMessage)).equals("1 article unpublished."))
 			result = true;
 		return result;
 	}
@@ -744,8 +735,7 @@ public class ArticlesPageAction extends CommonAction {
 		Configure.waitElementDisplay(3000);
 		boolean result = false;
 		if (isElementDisplay(readElement(Interfaces.ArticlesPage.iconPublish, title))
-				&& getTextElement(readElement(Interfaces.ArticlesPage.alertMessage))
-						.equals("1 article published."))
+				&& getTextElement(readElement(Interfaces.ArticlesPage.alertMessage)).equals("1 article published."))
 			result = true;
 		return result;
 	}
@@ -770,8 +760,7 @@ public class ArticlesPageAction extends CommonAction {
 		Configure.waitElementDisplay(3000);
 		boolean result = false;
 		if (isElementDisplay(readElement(Interfaces.ArticlesPage.iconFeatured, title))
-				&& getTextElement(readElement(Interfaces.ArticlesPage.alertMessage))
-						.equals("1 article featured."))
+				&& getTextElement(readElement(Interfaces.ArticlesPage.alertMessage)).equals("1 article featured."))
 			result = true;
 		return result;
 	}
@@ -796,14 +785,14 @@ public class ArticlesPageAction extends CommonAction {
 		Configure.waitElementDisplay(3000);
 		boolean result = false;
 		if (isElementDisplay(readElement(Interfaces.ArticlesPage.iconUnfeatured, title))
-				&& getTextElement(readElement(Interfaces.ArticlesPage.alertMessage))
-						.equals("1 article unfeatured."))
+				&& getTextElement(readElement(Interfaces.ArticlesPage.alertMessage)).equals("1 article unfeatured."))
 			result = true;
 		return result;
 	}
 
 	/**
 	 * verify check access level
+	 * 
 	 * @param title
 	 * @param access
 	 * @return
@@ -812,8 +801,7 @@ public class ArticlesPageAction extends CommonAction {
 		Configure.waitElementDisplay(3000);
 		boolean result = false;
 		boolean checkSave = checkSavedSuccessfully(title);
-		result = getTextElement(readElement(Interfaces.ArticlesPage.accessRow, title, access))
-				.equals("Public");
+		result = getTextElement(readElement(Interfaces.ArticlesPage.accessRow, title, access)).equals("Public");
 		return result && checkSave;
 	}
 

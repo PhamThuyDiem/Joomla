@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" name="Failed suite [Test-Suite]" guice-stage="DEVELOPMENT">
-  <test name="testArticlesPage(failed)">
+  <test name="testBannersPage(failed)">
     <parameter name="browser" value="Chrome"/>
     <parameter name="timeOutElementLoad" value="20"/>
     <parameter name="timeOutPageLoad" value="20"/>
     <classes>
-      <class name="testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive">
+      <class name="testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable">
         <methods>
-          <include name="afterMethod"/>
-          <include name="login" invocation-numbers="0"/>
           <include name="beforeMethod"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive -->
+      </class> <!-- testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable -->
     </classes>
-  </test> <!-- testArticlesPage(failed) -->
+  </test> <!-- testBannersPage(failed) -->
 </suite> <!-- Failed suite [Test-Suite] -->

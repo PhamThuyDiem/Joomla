@@ -72,7 +72,7 @@
 		<Address>//tbody//tr
 		</Address>
 	</Element>
-	<Element name="countBanners">
+	<Element name="rowBanners">
 		<By>ByXPath</By>
 		<Address>//tbody//tr
 		</Address>
@@ -88,7 +88,7 @@
 		</Address>
 	</Element>
 	<Element name="cbbSearchTools">
-		<By>ByXpath</By>
+		<By>ByXPath</By>
 		<Address>//div[@id='j-main-container']//button[normalize-space(text())='Search Tools']
 		</Address>
 	</Element>
@@ -172,7 +172,7 @@
 		<Address>//ul[@id='submenu']//a[normalize-space(text())='{0}']
 		</Address>
 	</Element>
-	<Element name="scrollTop">
+	<Element name="top">
 		<By>ByXPath</By>
 		<Address>html/body/nav/div/div
 		</Address>
@@ -182,7 +182,7 @@
 		<Address>//div[@id='list_limit_chzn']//input[@type='text']
 		</Address>
 	</Element>
-	<Element name="clickLimit">
+	<Element name="optionLimit">
 		<By>ByXPath</By>
 		<Address>//div[@id='list_limit_chzn']//ul[@class='chzn-results']//li[@data-option-array-index='{0}']
 		</Address>

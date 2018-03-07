@@ -63,5 +63,15 @@ task testArticles(type: Test) {
      }
 }
 
+task testBanners(type: Test) {
+	useTestNG() {
+        suites '/src/test/java/testRun/testBannersPage.xml'
+    }
+    maxParallelForks=1
+    onOutput { descriptor, event ->
+        logger.lifecycle(event.message )
+     }
+}
+
 
 

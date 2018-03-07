@@ -60,7 +60,7 @@ public class Interfaces {
 		public static final String accessRow = "accessRow";
 		public static final String alertMessage = "alertMessage";
 		public static final String inputLimit = "inputLimit";
-		public static final String clickLimit = "clickLimit";
+		public static final String optionLimit = "optionLimit";
 		public static final String scrollTop = "scrollTop";
 		public static final String txtLimit = "txtLimit";
 	}
@@ -121,7 +121,7 @@ public class Interfaces {
 		public static final String alertSuccess = "alertSuccess";
 		public static final String cbbAccess = "cbbAccess";
 		public static final String selectAccess = "selectAccess";
-		public static final String clickImage = "clickImage";
+		public static final String optionImage = "optionImage";
 		public static final String ifImage = "ifImage";
 		public static final String chooseImage = "chooseImage";
 		public static final String fsUpload = "fsUpload";
@@ -198,7 +198,6 @@ public class Interfaces {
 		public static final String checkboxBanners = "checkboxBanners";
 		public static final String btnUnpublish = "btnUnpublish";
 		public static final String textAlertMessage = "textAlertMessage";
-		//public static final String nameBanner = "nameBanner";
 		public static final String textCategoryName = "textCategoryName";
 		public static final String countRowClient = "countRowClient";
 		public static final String nameClient = "nameClient";
@@ -216,16 +215,16 @@ public class Interfaces {
 		public static final String optionClient = "optionClient";
 		public static final String iconCheckedOut = "iconCheckedOut";
 		public static final String btnCheckIn = "btnCheckIn";
-		public static final String rowBanner = "rowBanner";		
+		public static final String rowBanners = "rowBanners";		
 		public static final String btnNextPagination = "btnNextPagination";	
 		public static final String countPaginationBanner = "countPaginationBanner";	
 		public static final String selectRowID = "selectRowID";
 		public static final String headerLink = "headerLink";
 		public static final String countRowBanners = "countRowBanners";
 		public static final String subMenu = "subMenu";
-		public static final String scrollTop = "scrollTop";
+		public static final String top = "top";
 		public static final String txtLimit = "txtLimit";
-		public static final String clickLimit = "clickLimit";
+		public static final String optionLimit = "optionLimit";
 		public static final String textNoMatchingResult = "textNoMatchingResult";
 		public static final String inputClient = "inputClient";
 		public static final String indexOptionClient = "indexOptionClient";
