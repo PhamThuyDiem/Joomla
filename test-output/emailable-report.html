@@ -9,10 +9,32 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Test-Suite</th></tr>
-<tr><td><a href="#t0">testBannersPage</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">123,223</td><td></td><td></td></tr>
+<tr><td><a href="#t0">testBannersPage</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">680,360</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Test-Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">testBannersPage &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCase.BANNERS_TC005_VerifyThatUserCanArchiveABanner</td><td><a href="#m0">login</a></td><td rowspan="1">1520477521756</td><td rowspan="1">116387</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Test-Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">testBannersPage &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCase.BANNERS_TC005_VerifyThatUserCanArchiveABanner</td><td><a href="#m0">login</a></td><td rowspan="1">1520479865705</td><td rowspan="1">162203</td></tr><tr><th colspan="4">testBannersPage &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner</td><td><a href="#m1">login</a></td><td rowspan="1">1520479624748</td><td rowspan="1">234947</td></tr><tr class="passedodd"><td rowspan="1">testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash</td><td><a href="#m2">login</a></td><td rowspan="1">1520480034354</td><td rowspan="1">264430</td></tr></tbody>
 </table>
-<h2>testBannersPage</h2><h3 id="m0">testCase.BANNERS_TC005_VerifyThatUserCanArchiveABanner#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th></tr><tr class="param stripe"><td>http://192.168.188.150/joomla/administrator/</td><td>diempham</td><td>diempham</td><td>Client Test 1520477515544</td><td>Mr John</td><td>John@gmail.com</td><td>Category Test 1520477515544</td><td>Banner Test 1520477515544</td><td>Category Test 1520477515544</td></tr><tr><th colspan="9">Messages</th></tr><tr><td colspan="9"><div class="messages">Verify that user can archive a banner</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>testBannersPage</h2><h3 id="m0">testCase.BANNERS_TC005_VerifyThatUserCanArchiveABanner#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th></tr><tr class="param stripe"><td>http://192.168.188.150/joomla/administrator/</td><td>diempham</td><td>diempham</td><td>Client Test 1520479860246</td><td>Mr John</td><td>John@gmail.com</td><td>Category Test 1520479860246</td><td>Banner Test 1520479860246</td><td>Category Test 1520479860246</td></tr><tr><th colspan="9">Exception</th></tr><tr><td colspan="9"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //input[@id=&apos;jform_name&apos;] (tried for 30 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at common.Configure.waitCondition(Configure.java:86)
+	at common.CommonAction.sendkeys(CommonAction.java:158)
+	at pageAction.NewBannersPageAction.inputName(NewBannersPageAction.java:26)
+	at testCase.BANNERS_TC005_VerifyThatUserCanArchiveABanner.login(BANNERS_TC005_VerifyThatUserCanArchiveABanner.java:94)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //input[@id=&apos;jform_name&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.0&apos;, revision: &apos;924c4067df&apos;, time: &apos;2017-11-30T11:20:39.408Z&apos;
+System info: host: &apos;LGDN15031&apos;, ip: &apos;192.168.191.228&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;9.0.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
+	at java.base/java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 29 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th></tr><tr class="param stripe"><td>http://192.168.188.150/joomla/administrator/</td><td>diempham</td><td>diempham</td><td>Client Test 1520479618973</td><td>Mr John</td><td>John@gmail.com</td><td>Category Test 1520479618973</td><td>Banner Test 1520479618973</td><td>Category Test 1520479618973</td></tr><tr><th colspan="9">Messages</th></tr><tr><td colspan="9"><div class="messages">Verify that user can unpublish a banner</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th></tr><tr class="param stripe"><td>http://192.168.188.150/joomla/administrator/</td><td>diempham</td><td>diempham</td><td>Client Test 1520480028477</td><td>Mr John</td><td>John@gmail.com</td><td>Category Test 1520480028478</td><td>Banner Test 1520480028478</td><td>Category Test 1520480028478</td></tr><tr><th colspan="9">Messages</th></tr><tr><td colspan="9"><div class="messages">Verify that user can send a banner to trash</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -5,7 +5,9 @@
 		<parameter name="timeOutPageLoad" value="20" />
 		<parameter name="timeOutElementLoad" value="20" />
 		<classes>
+			<class name="testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner"></class>
 			<class name="testCase.BANNERS_TC005_VerifyThatUserCanArchiveABanner"></class>
+			<class name="testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash"></class>
 			<!-- <class name="testCase.BANNERS_TC001_VerifyThatUserCanCreateNewBanner"></class>
 			<class name="testCase.BANNERS_TC002_VerifyThatUserCanEditABanner"></class>
 			<class name="testCase.BANNERS_TC003_VerifyThatUserCanCreateANewBannerWithUnpublishedStatus"></class>

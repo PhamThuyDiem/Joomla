@@ -145,7 +145,6 @@ public class CommonAction {
 	 * @param values
 	 */
 	public void sendkeys(By path, String values) {
-		
 		if (Configure.browser.equals("IE")) {
 			try {
 				Thread.sleep(3000);
