@@ -230,6 +230,8 @@ public class Interfaces {
 		public static final String indexOptionClient = "indexOptionClient";
 		public static final String inputCategory = "inputCategory";
 		public static final String indexOptionCategory = "indexOptionCategory";		
+		public static final String header = "header";		
+		
 	}
 
 	/**

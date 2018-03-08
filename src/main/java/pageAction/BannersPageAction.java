@@ -230,11 +230,13 @@ public class BannersPageAction extends CommonAction {
 	 * @param item
 	 */
 	public void listLimit(String item) {
+		scrollTop();
 		isElementDisplay(readElement(Interfaces.BannersPage.cbbListLimit));
 		click(readElement(Interfaces.BannersPage.cbbListLimit));
 		String index = getDataOptionArrayIndex(readElement(Interfaces.BannersPage.optionSelectListLimit, item));
 		sendkeys(readElement(Interfaces.BannersPage.txtLimit),item);
-		scrollElement(readElement(Interfaces.BannersPage.top));
+		//scrollElement(readElement(Interfaces.BannersPage.top));
+		scrollTop();
 		click(readElement(Interfaces.BannersPage.optionLimit ,index));	
 	}
 
@@ -245,8 +247,9 @@ public class BannersPageAction extends CommonAction {
 	 */
 	public void checkboxBanners(String banner) {
 		Configure.waitElementDisplay(3000);
-		listLimit("All");
+		searchText(banner);
 		click(readElement(Interfaces.BannersPage.checkboxBanners, banner));
+		scrollTop();
 	}
 
 	/**
@@ -254,7 +257,7 @@ public class BannersPageAction extends CommonAction {
 	 */
 	public void clickUnpublish() {
 		Configure.waitElementDisplay(3000);
-		scrollElement(readElement(Interfaces.BannersPage.top));
+		scrollTop();
 		click(readElement(Interfaces.BannersPage.btnUnpublish));
 	}
 
@@ -263,7 +266,7 @@ public class BannersPageAction extends CommonAction {
 	 */
 	public void clickArchive() {
 		Configure.waitElementDisplay(3000);
-		scrollElement(readElement(Interfaces.BannersPage.top));
+		scrollTop();
 		click(readElement(Interfaces.BannersPage.btnArchive));
 	}
 
@@ -272,7 +275,7 @@ public class BannersPageAction extends CommonAction {
 	 */
 	public void clickCheckIn() {
 		Configure.waitElementDisplay(3000);
-		scrollElement(readElement(Interfaces.BannersPage.top));
+		scrollTop();
 		click(readElement(Interfaces.BannersPage.btnCheckIn));
 	}
 
@@ -281,7 +284,7 @@ public class BannersPageAction extends CommonAction {
 	 */
 	public void clickTrash() {
 		Configure.waitElementDisplay(3000);
-		scrollElement(readElement(Interfaces.BannersPage.top));
+		scrollTop();
 		click(readElement(Interfaces.BannersPage.btnTrash));
 	}
 
