@@ -247,8 +247,9 @@ public class BannersPageAction extends CommonAction {
 	 */
 	public void checkboxBanners(String banner) {
 		Configure.waitElementDisplay(3000);
-		listLimit("All");
+		searchText(banner);
 		click(readElement(Interfaces.BannersPage.checkboxBanners, banner));
+		scrollTop();
 	}
 
 	/**

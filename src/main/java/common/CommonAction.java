@@ -14,7 +14,6 @@ import javax.xml.xpath.XPathExpression;
 import javax.xml.xpath.XPathFactory;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.By.ById;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -33,6 +32,60 @@ public class CommonAction {
 	public Document configFile;
 	public Configure configure;
 
+
+	/**
+	 * read Xml file
+	 * 
+	 * @param location
+	 */
+	public void readXmlFile(String location) {
+		try {
+			File configFile = new File("src/main/java/interfaces/" + location + ".xml");
+			DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
+			DocumentBuilder dBuilder = dFactory.newDocumentBuilder();
+			this.configFile = dBuilder.parse(configFile);
+		} catch (Exception e) {
+			System.out.println(e.toString());
+			this.configFile = null;
+		}
+	}
+
+	/**
+	 * read element
+	 * 
+	 * @param name
+	 * @param var
+	 * @return
+	 */
+	public By readElement(String name, String... var) {
+		By path = null;
+		try {
+			XPathFactory xPathFactory = XPathFactory.newInstance();
+			XPath xpath = xPathFactory.newXPath();
+			XPathExpression expr = xpath.compile("//Element[@name=\"" + name + "\"]");
+			Element nNode = (Element) expr.evaluate(configFile, XPathConstants.NODE);
+			String content = nNode.getElementsByTagName("Address").item(0).getTextContent();
+			String by = nNode.getElementsByTagName("By").item(0).getTextContent();
+			for (int i = 0; i < var.length; i++) {
+				content = content.replace("{" + i + "}", var[i]);
+			}
+			switch (by) {
+			case "ByXPath":
+				return path = By.xpath(content);
+			case "ByCssSelector":
+				return path = By.cssSelector(content);
+			case "ByID":
+				return path = By.id(content);
+			case "ByName":
+				return path = By.name(content);
+			}
+			return path;
+		} catch (Exception e) {
+			// TODO: handle exception
+			return null;
+		}
+	}
+
 	/**
 	 * event click
 	 * 
@@ -41,7 +94,7 @@ public class CommonAction {
 	public void click(By path) {
 		if (Configure.browser.equals("IE")) {
 			try {
-				Thread.sleep(200);
+				Thread.sleep(3000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -73,14 +126,13 @@ public class CommonAction {
 	public void focus(By path) {
 		if (Configure.browser.equals("IE")) {
 			try {
-				Thread.sleep(200);
+				Thread.sleep(3000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
 		Configure.waitElementDisplay(30);
-		// Configure.waitCondition(30,
 		ExpectedConditions.presenceOfElementLocated(path);
 		element = Configure.driver.findElement(path);
 		new Actions(Configure.driver).moveToElement(element).perform();
@@ -96,7 +148,7 @@ public class CommonAction {
 		
 		if (Configure.browser.equals("IE")) {
 			try {
-				Thread.sleep(200);
+				Thread.sleep(3000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -119,7 +171,7 @@ public class CommonAction {
 	 * @param path
 	 */
 	public void getURL(String path) {
-		Configure.waitPageLoad(10);
+		Configure.waitPageLoad(30);
 		Configure.driver.get(path);
 	}
 
@@ -135,8 +187,6 @@ public class CommonAction {
 				Thread.sleep(3000);
 			Configure.waitElementDisplay(30);
 			Configure.waitCondition(30, ExpectedConditions.presenceOfElementLocated(path));
-			// Configure.waitCondition(Configure.timeOutElementLoad,
-			// ExpectedConditions.presenceOfElementLocated(path));
 			element = Configure.driver.findElement(path);
 			if (!Configure.browser.equals("Chrome")) {
 				new Actions(Configure.driver).moveToElement(element).perform();
@@ -198,59 +248,6 @@ public class CommonAction {
 	 */
 	public void switchBack() {
 		Configure.driver.switchTo().defaultContent();
-	}
-
-	/**
-	 * read Xml file
-	 * 
-	 * @param location
-	 */
-	public void readXmlFile(String location) {
-		try {
-			File configFile = new File("src/main/java/interfaces/" + location + ".xml");
-			DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
-			DocumentBuilder dBuilder = dFactory.newDocumentBuilder();
-			this.configFile = dBuilder.parse(configFile);
-		} catch (Exception e) {
-			System.out.println(e.toString());
-			this.configFile = null;
-		}
-	}
-
-	/**
-	 * read element
-	 * 
-	 * @param name
-	 * @param var
-	 * @return
-	 */
-	public By readElement(String name, String... var) {
-		By path = null;
-		try {
-			XPathFactory xPathFactory = XPathFactory.newInstance();
-			XPath xpath = xPathFactory.newXPath();
-			XPathExpression expr = xpath.compile("//Element[@name=\"" + name + "\"]");
-			Element nNode = (Element) expr.evaluate(configFile, XPathConstants.NODE);
-			String content = nNode.getElementsByTagName("Address").item(0).getTextContent();
-			String by = nNode.getElementsByTagName("By").item(0).getTextContent();
-			for (int i = 0; i < var.length; i++) {
-				content = content.replace("{" + i + "}", var[i]);
-			}
-			switch (by) {
-			case "ByXPath":
-				return path = By.xpath(content);
-			case "ByCssSelector":
-				return path = By.cssSelector(content);
-			case "ByID":
-				return path = By.id(content);
-			case "ByName":
-				return path = By.name(content);
-			}
-			return path;
-		} catch (Exception e) {
-			// TODO: handle exception
-			return null;
-		}
 	}
 	
 	/**
