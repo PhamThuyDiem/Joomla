@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-05T07:41:38" hostname="LGDN15031" time="11.388">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator, diempham, diempham)" classname="testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage" time="11.388"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 05, 2018 2:41:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 05, 2018 2:41:38 PM testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage login
+INFO: -----------TC_JOOMLA_BANNERS_007-------------
+Mar 05, 2018 2:41:38 PM testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 05, 2018 2:41:39 PM testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage login
+INFO: Step 2 : Login with User Name and password
+Mar 05, 2018 2:41:40 PM testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage login
+INFO: Step 3: Click Login in button
+Mar 05, 2018 2:41:42 PM testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage login
+INFO: Step 4: Select Components -> Banners -> Banners
+Mar 05, 2018 2:41:43 PM testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage login
+INFO: Step 5: Click New button in the top right corner
+Mar 05, 2018 2:41:45 PM testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage login
+INFO: Step 6: Click Help button in the right top corner
+Mar 05, 2018 2:41:46 PM testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage login
+INFO: Step 7: Banner help page appears
+]]></system-err>
+</testsuite>

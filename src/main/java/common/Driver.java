@@ -1,5 +1,7 @@
 package common;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -8,6 +10,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class Driver {
 	public WebDriver driver;
@@ -18,12 +24,21 @@ public class Driver {
 	 * 
 	 * @param browser
 	 */
-	@SuppressWarnings("deprecation")
 	public void setUp(String browser) {
 		if (browser.equals("Firefox")) {
-			DesiredCapabilities d = new DesiredCapabilities();
-			d.setCapability("marionette", false); // to disable marionette, by default true
-			driver = new FirefoxDriver(d); // to disable marionette, by default true
+//			DesiredCapabilities d = new DesiredCapabilities();
+//			d.setCapability("marionette", false); // to disable marionette, by default true
+//			driver = new FirefoxDriver(d); // to disable marionette, by default true
+			String Node = "http://192.168.1.164:4444/wd/hub";
+	 		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+	 		capabilities.setPlatform(Platform.WINDOWS);
+	 		try {
+				driver = new RemoteWebDriver(new URL(Node), capabilities);
+			} catch (MalformedURLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+	 		
 		} else if (browser.equals("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 			driver = new ChromeDriver();

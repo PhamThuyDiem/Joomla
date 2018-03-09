@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-05T07:25:54" hostname="LGDN15031" time="15.106">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator, diempham, diempham, Test Article 1520234751517, Sample Data-Articles, Published, this is article content, Test Article 1520234751517)" classname="testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField" time="15.106"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 05, 2018 2:25:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 05, 2018 2:25:54 PM testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField login
+INFO: -----------TC_JOOMLA_ARTICLE_009-------------
+Mar 05, 2018 2:25:54 PM testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 05, 2018 2:25:55 PM testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField login
+INFO: Step 2 :Enter valid username into Username field
+Mar 05, 2018 2:25:55 PM testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField login
+INFO: Step 3: Enter valid password into Password field
+Mar 05, 2018 2:25:56 PM testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField login
+INFO: Step 4: Click on 'Log in' button
+Mar 05, 2018 2:25:57 PM testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField login
+INFO: Step 5: Select Content > Articles
+Mar 05, 2018 2:25:57 PM testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField login
+INFO: Step 6:Click on 'New' icon of the top right toolbar
+Mar 05, 2018 2:26:01 PM testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField login
+INFO: Step 7: Enter a title on 'Title' field
+Mar 05, 2018 2:26:01 PM testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField login
+INFO: Step 8: Select an item from the 'Category' dropdown list
+Mar 05, 2018 2:26:01 PM testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField login
+INFO: Step 9: Select 'Published' item from 'Status' dropdown list
+Mar 05, 2018 2:26:02 PM testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField login
+INFO: Step 10: Enter value on 'Article Text' text area
+Mar 05, 2018 2:26:02 PM testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField login
+INFO: Step 11: Click on 'Save & Close' icon of the top right toolbar
+Mar 05, 2018 2:26:05 PM testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField login
+INFO: Step 12: Verify the article is saved successfully
+Mar 05, 2018 2:26:08 PM testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField login
+INFO: Step 13: Enter a title on 'Filter' text field
+Mar 05, 2018 2:26:08 PM testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField login
+INFO: Step 14: Click on 'Search' button
+Mar 05, 2018 2:26:09 PM testCase.ARTICLE_TC009_VerifyUserCanSearchForArticlesUsingTheFilterTextField login
+INFO: Step 15: Verify the titles of displayed articles are partially matched with the entered keyword
+]]></system-err>
+</testsuite>

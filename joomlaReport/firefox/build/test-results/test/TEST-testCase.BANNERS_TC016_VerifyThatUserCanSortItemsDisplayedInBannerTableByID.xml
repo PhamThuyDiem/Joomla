@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.BANNERS_TC016_VerifyThatUserCanSortItemsDisplayedInBannerTableByID" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-05T07:44:56" hostname="LGDN15031" time="26.999">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator, diempham, diempham)" classname="testCase.BANNERS_TC016_VerifyThatUserCanSortItemsDisplayedInBannerTableByID" time="26.999"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 05, 2018 2:44:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 05, 2018 2:44:56 PM testCase.BANNERS_TC016_VerifyThatUserCanSortItemsDisplayedInBannerTableByID login
+INFO: -----------TC_JOOMLA_BANNERS_016-------------
+Mar 05, 2018 2:44:56 PM testCase.BANNERS_TC016_VerifyThatUserCanSortItemsDisplayedInBannerTableByID login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 05, 2018 2:44:57 PM testCase.BANNERS_TC016_VerifyThatUserCanSortItemsDisplayedInBannerTableByID login
+INFO: Step 2 : Login with User Name and password
+Mar 05, 2018 2:44:57 PM testCase.BANNERS_TC016_VerifyThatUserCanSortItemsDisplayedInBannerTableByID login
+INFO: Step 3: Click Login in button
+Mar 05, 2018 2:44:59 PM testCase.BANNERS_TC016_VerifyThatUserCanSortItemsDisplayedInBannerTableByID login
+INFO: Step 4: Select Components -> Banners -> Banners
+Mar 05, 2018 2:45:01 PM testCase.BANNERS_TC016_VerifyThatUserCanSortItemsDisplayedInBannerTableByID login
+INFO: Step 5: Click ID link in the top of table
+Mar 05, 2018 2:45:03 PM testCase.BANNERS_TC016_VerifyThatUserCanSortItemsDisplayedInBannerTableByID login
+INFO: Step 6: Verify items are sorted ascending by ID in banner table
+Mar 05, 2018 2:45:12 PM testCase.BANNERS_TC016_VerifyThatUserCanSortItemsDisplayedInBannerTableByID login
+INFO: Step 7: Click ID link in the top of table
+Mar 05, 2018 2:45:15 PM testCase.BANNERS_TC016_VerifyThatUserCanSortItemsDisplayedInBannerTableByID login
+INFO: Step 8: Verify items are sorted descending by ID in banner table
+]]></system-err>
+</testsuite>

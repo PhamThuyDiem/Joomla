@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-08T07:01:52" hostname="LGDN15031" time="71.798">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator/, diempham, diempham, Test Article 1520492507327, Sample Data-Articles, this is article content)" classname="testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent" time="71.798"/>
+  <system-out><![CDATA[focus
+]]></system-out>
+  <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+3.9.0.0
+Listening on port 9099
+Only local connections are allowed
+Mar 08, 2018 2:01:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 08, 2018 2:01:52 PM testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent login
+INFO: -----------TC_JOOMLA_ARTICLE_013-------------
+Mar 08, 2018 2:01:52 PM testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 08, 2018 2:01:52 PM testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent login
+INFO: Step 2 :Enter valid username into Username field
+Mar 08, 2018 2:01:54 PM testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent login
+INFO: Step 3: Enter valid password into Password field
+Mar 08, 2018 2:01:56 PM testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent login
+INFO: Step 4: Click on 'Log in' button
+Mar 08, 2018 2:01:59 PM testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent login
+INFO: Step 5: Select Content > Articles
+Mar 08, 2018 2:02:05 PM testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent login
+INFO: Step 6:Click on 'New' icon of the top right toolbar
+Mar 08, 2018 2:02:10 PM testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent login
+INFO: Step 7: Enter a title on 'Title' field
+Mar 08, 2018 2:02:12 PM testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent login
+INFO: Step 8: Select an item from the 'Category' dropdown list
+Mar 08, 2018 2:02:16 PM testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent login
+INFO: Step 9: Enter value on 'Article Text' text area
+Mar 08, 2018 2:02:21 PM testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent login
+INFO: Step 10: Click on 'Image' button
+Mar 08, 2018 2:02:26 PM testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent login
+INFO: Step 11: Select powered_by.pnj image from the 'Image' dialog
+Mar 08, 2018 2:02:39 PM testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent login
+INFO: Step 12: Click on 'Insert' button
+Mar 08, 2018 2:02:42 PM testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent login
+INFO: Step 13: Click on 'Save & Close' icon of the top right toolbar
+Mar 08, 2018 2:02:47 PM testCase.ARTICLE_TC013_VerifyUserCanAddImageToArticleContent login
+INFO: Step 14: Verify the article is saved successfully
+]]></system-err>
+</testsuite>

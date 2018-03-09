@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.ARTICLE_TC012_VerifyUserCanPagingTheArticlesUsingThePagingControl" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-05T07:28:05" hostname="LGDN15031" time="217.232">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator, diempham, diempham, 5)" classname="testCase.ARTICLE_TC012_VerifyUserCanPagingTheArticlesUsingThePagingControl" time="217.232"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 05, 2018 2:28:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 05, 2018 2:28:05 PM testCase.ARTICLE_TC012_VerifyUserCanPagingTheArticlesUsingThePagingControl login
+INFO: -----------TC_JOOMLA_ARTICLE_012-------------
+Mar 05, 2018 2:28:05 PM testCase.ARTICLE_TC012_VerifyUserCanPagingTheArticlesUsingThePagingControl login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 05, 2018 2:28:06 PM testCase.ARTICLE_TC012_VerifyUserCanPagingTheArticlesUsingThePagingControl login
+INFO: Step 2 :Enter valid username into Username field
+Mar 05, 2018 2:28:06 PM testCase.ARTICLE_TC012_VerifyUserCanPagingTheArticlesUsingThePagingControl login
+INFO: Step 3: Enter valid password into Password field
+Mar 05, 2018 2:28:06 PM testCase.ARTICLE_TC012_VerifyUserCanPagingTheArticlesUsingThePagingControl login
+INFO: Step 4: Click on 'Log in' button
+Mar 05, 2018 2:28:08 PM testCase.ARTICLE_TC012_VerifyUserCanPagingTheArticlesUsingThePagingControl login
+INFO: Step 5: Select Content > Article Manager
+Mar 05, 2018 2:28:08 PM testCase.ARTICLE_TC012_VerifyUserCanPagingTheArticlesUsingThePagingControl login
+INFO: Step 6: Select 5 item of the 'Display' dropdown list at the footer section of the article table
+Mar 05, 2018 2:28:11 PM testCase.ARTICLE_TC012_VerifyUserCanPagingTheArticlesUsingThePagingControl login
+INFO: Step 7: Verify the article table is paging into 5 articles per page
+Mar 05, 2018 2:31:09 PM testCase.ARTICLE_TC012_VerifyUserCanPagingTheArticlesUsingThePagingControl login
+INFO: Step 8: Select All item of the 'Display' dropdown list at the footer section of the article table
+Mar 05, 2018 2:31:12 PM testCase.ARTICLE_TC012_VerifyUserCanPagingTheArticlesUsingThePagingControl login
+INFO: Step 9: Verify all articles are displayed in one page
+]]></system-err>
+</testsuite>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-08T06:46:30" hostname="LGDN15031" time="94.199">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator/, diempham, diempham, Test Article 1520491585617, Sample Data-Articles, Published, this is article content)" classname="testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle" time="94.199"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+3.9.0.0
+Listening on port 40266
+Only local connections are allowed
+Mar 08, 2018 1:46:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 08, 2018 1:46:30 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: -----------TC_JOOMLA_ARTICLE_006-------------
+Mar 08, 2018 1:46:30 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 08, 2018 1:46:31 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 2 :Enter valid username into Username field
+Mar 08, 2018 1:46:33 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 3: Enter valid password into Password field
+Mar 08, 2018 1:46:34 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 4: Click on 'Log in' button
+Mar 08, 2018 1:46:37 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 5: Select Content > Articles
+Mar 08, 2018 1:46:43 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 6:Click on 'New' icon of the top right toolbar
+Mar 08, 2018 1:46:48 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 7: Enter a title on 'Title' field
+Mar 08, 2018 1:46:50 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 8: Select an item from the 'Category' dropdown list
+Mar 08, 2018 1:47:04 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 9: Select 'Published' item from 'Status' dropdown list
+Mar 08, 2018 1:47:17 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 10: Enter value on 'Article Text' text area
+Mar 08, 2018 1:47:21 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 11: Click on 'Save' icon of the top right toolbar
+Mar 08, 2018 1:47:26 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 12: Verify the article is saved successfully
+Mar 08, 2018 1:47:30 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 13: Close the browser window
+Mar 08, 2018 1:47:30 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 14: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Started InternetExplorerDriver server (32-bit)
+3.9.0.0
+Listening on port 42347
+Only local connections are allowed
+Mar 08, 2018 1:47:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 08, 2018 1:47:36 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 15: Enter valid username into Username field
+Mar 08, 2018 1:47:38 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 16: Enter valid password into Password field
+Mar 08, 2018 1:47:40 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 17: Click on 'Log in' button
+Mar 08, 2018 1:47:43 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 18: Select Content > Article Manager
+Mar 08, 2018 1:47:50 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 19: Check on the recently added article's checkbox
+Mar 08, 2018 1:47:56 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 20: Click on 'Check In' icon of the top right toolbar
+Mar 08, 2018 1:48:01 PM testCase.ARTICLE_TC006_VerifyUserCanCheckInAnArticle login
+INFO: Step 21: Verify the article is checked in successfully
+]]></system-err>
+</testsuite>

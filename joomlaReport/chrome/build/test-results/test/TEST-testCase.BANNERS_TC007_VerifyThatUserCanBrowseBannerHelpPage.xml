@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.BANNERS_TC007_VerifyThatUserCanBrowseBannerHelpPage" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-05T06:44:08" hostname="LGDN15031" time="6.114">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator, diempham, diempham)" classname="testCase.BANNERS_TC007_VerifyThatUserCanBrowseBannerHelpPage" time="6.114"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1) on port 1744
+Only local connections are allowed.
+Mar 05, 2018 1:44:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 05, 2018 1:44:08 PM testCase.BANNERS_TC007_VerifyThatUserCanBrowseBannerHelpPage login
+INFO: -----------TC_JOOMLA_BANNERS_007-------------
+Mar 05, 2018 1:44:08 PM testCase.BANNERS_TC007_VerifyThatUserCanBrowseBannerHelpPage login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 05, 2018 1:44:09 PM testCase.BANNERS_TC007_VerifyThatUserCanBrowseBannerHelpPage login
+INFO: Step 2 : Login with User Name and password
+Mar 05, 2018 1:44:09 PM testCase.BANNERS_TC007_VerifyThatUserCanBrowseBannerHelpPage login
+INFO: Step 3: Click Login in button
+Mar 05, 2018 1:44:10 PM testCase.BANNERS_TC007_VerifyThatUserCanBrowseBannerHelpPage login
+INFO: Step 4: Select Components -> Banners -> Banners
+Mar 05, 2018 1:44:11 PM testCase.BANNERS_TC007_VerifyThatUserCanBrowseBannerHelpPage login
+INFO: Step 5: Click Help button in the right top corner
+Mar 05, 2018 1:44:11 PM testCase.BANNERS_TC007_VerifyThatUserCanBrowseBannerHelpPage login
+INFO: Step 6: Banner help page appears
+]]></system-err>
+</testsuite>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-05T06:43:31" hostname="LGDN15031" time="32.756">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator, diempham, diempham, Client Test 1520232208411, Mr John, John@gmail.com, Category Test 1520232208411, Banner Test 1520232208411, Category Test 1520232208411)" classname="testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash" time="32.756"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1) on port 12742
+Only local connections are allowed.
+Mar 05, 2018 1:43:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 05, 2018 1:43:31 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: -----------TC_JOOMLA_BANNERS_006-------------
+Mar 05, 2018 1:43:31 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 05, 2018 1:43:33 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 2 : Login with User Name and password
+Mar 05, 2018 1:43:33 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 3: Click Login in button
+Mar 05, 2018 1:43:34 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 4: Select Components -> Banners -> Clients
+Mar 05, 2018 1:43:35 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 5: Click New button in the right top cornera
+Mar 05, 2018 1:43:36 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 6: Enter valid Client Name to Client Name textbox
+Mar 05, 2018 1:43:36 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 7: Enter valid Client Name to Client Name textbox
+Mar 05, 2018 1:43:36 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 8: Enter valid Contact Email to Contact Email textbox
+Mar 05, 2018 1:43:37 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 9: Click Save & Close button
+Mar 05, 2018 1:43:38 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 10: A message : Client successfully saved shows and new client is created
+Mar 05, 2018 1:43:40 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 11: Select Components -> Banners -> Categories
+Mar 05, 2018 1:43:41 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 12: Click New button in the right top corner
+Mar 05, 2018 1:43:42 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 13: Enter valid Category Name to Name textbox
+Mar 05, 2018 1:43:42 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 14: Click Save & Close button
+Mar 05, 2018 1:43:44 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 15: A message : Category successfully saved shows and new category is created
+Mar 05, 2018 1:43:47 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 16: Select Components -> Banners -> Banners
+Mar 05, 2018 1:43:48 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 17: Click New button in the right top corner
+Mar 05, 2018 1:43:49 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 18: Enter valid Name to Name textbox
+Mar 05, 2018 1:43:49 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 19: Select a Category in Category dropdown list
+Mar 05, 2018 1:43:50 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 20: Select a Client in Client dropdown list
+Mar 05, 2018 1:43:51 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 21: Click Save & Close button
+Mar 05, 2018 1:43:52 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 22: A message : Banner successfully saved shows and new banner is created
+Mar 05, 2018 1:43:56 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 23: Check the banner recently created
+Mar 05, 2018 1:43:58 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 24: Click Trash button in the right top corner
+Mar 05, 2018 1:43:59 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 25: A message : 1 banner successfully archived shows
+Mar 05, 2018 1:43:59 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 26: Select Archive in Status dropdown list
+Mar 05, 2018 1:44:02 PM testCase.BANNERS_TC006_VerifyThatUserCanSendABannerToTrash login
+INFO: Step 27: Verify banner is archived
+]]></system-err>
+</testsuite>
