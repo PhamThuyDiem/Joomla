@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.BANNERS_TC017_VerifyThatUserCanAccessBannerClientsPageWhileBrowsingBannerPage" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-08T07:48:39" hostname="LGDN15031" time="15.298">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator/, diempham, diempham)" classname="testCase.BANNERS_TC017_VerifyThatUserCanAccessBannerClientsPageWhileBrowsingBannerPage" time="15.298"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+3.9.0.0
+Listening on port 18275
+Only local connections are allowed
+Mar 08, 2018 2:48:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 08, 2018 2:48:39 PM testCase.BANNERS_TC017_VerifyThatUserCanAccessBannerClientsPageWhileBrowsingBannerPage login
+INFO: -----------TC_JOOMLA_BANNERS_017-------------
+Mar 08, 2018 2:48:39 PM testCase.BANNERS_TC017_VerifyThatUserCanAccessBannerClientsPageWhileBrowsingBannerPage login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 08, 2018 2:48:39 PM testCase.BANNERS_TC017_VerifyThatUserCanAccessBannerClientsPageWhileBrowsingBannerPage login
+INFO: Step 2 : Login with User Name and password
+Mar 08, 2018 2:48:43 PM testCase.BANNERS_TC017_VerifyThatUserCanAccessBannerClientsPageWhileBrowsingBannerPage login
+INFO: Step 3: Click Login in button
+Mar 08, 2018 2:48:46 PM testCase.BANNERS_TC017_VerifyThatUserCanAccessBannerClientsPageWhileBrowsingBannerPage login
+INFO: Step 4: Select Components -> Banners -> Banners
+Mar 08, 2018 2:48:51 PM testCase.BANNERS_TC017_VerifyThatUserCanAccessBannerClientsPageWhileBrowsingBannerPage login
+INFO: Step 5: Click Clients link in the left top 
+Mar 08, 2018 2:48:54 PM testCase.BANNERS_TC017_VerifyThatUserCanAccessBannerClientsPageWhileBrowsingBannerPage login
+INFO: Step 6: Verify Client page displays
+]]></system-err>
+</testsuite>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-08T07:36:20" hostname="LGDN15031" time="150.377">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator/, diempham, diempham, Client Test 1520494575394, Mr John, John@gmail.com, Category Test 1520494575394, Banner Test 1520494575394, Category Test 1520494575394, Banner New Test 1520494575394)" classname="testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton" time="150.377"/>
+  <system-out><![CDATA[true
+true
+]]></system-out>
+  <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+3.9.0.0
+Listening on port 14416
+Only local connections are allowed
+Mar 08, 2018 2:36:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 08, 2018 2:36:20 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: -----------TC_JOOMLA_BANNERS_011-------------
+Mar 08, 2018 2:36:20 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 08, 2018 2:36:21 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 2 : Login with User Name and password
+Mar 08, 2018 2:36:24 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 3: Click Login in button
+Mar 08, 2018 2:36:28 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 4: Select Components -> Banners -> Clients
+Mar 08, 2018 2:36:33 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 5: Click New button in the right top cornera
+Mar 08, 2018 2:36:36 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 6: Enter valid Client Name to Client Name textbox
+Mar 08, 2018 2:36:38 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 7: Enter valid Client Name to Client Name textbox
+Mar 08, 2018 2:36:40 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 8: Enter valid Contact Email to Contact Email textbox
+Mar 08, 2018 2:36:42 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 9: Click Save & Close button
+Mar 08, 2018 2:36:46 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 10: A message : Client successfully saved shows and new client is created
+Mar 08, 2018 2:37:00 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 11: Select Components -> Banners -> Categories
+Mar 08, 2018 2:37:06 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 12: Click New button in the right top corner
+Mar 08, 2018 2:37:10 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 13: Enter valid Category Name to Name textbox
+Mar 08, 2018 2:37:13 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 14: Click Save & Close button
+Mar 08, 2018 2:37:17 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 15: A message : Category successfully saved shows and new category is created
+Mar 08, 2018 2:37:33 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 16: Select Components -> Banners -> Banners
+Mar 08, 2018 2:37:39 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 17: Click New button in the right top corner
+Mar 08, 2018 2:37:43 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 18: Enter valid Name to Name textbox
+Mar 08, 2018 2:37:45 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 19: Select a Category in Category dropdown list
+Mar 08, 2018 2:37:55 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 20: Select a Client in Client dropdown list
+Mar 08, 2018 2:38:06 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 21: Click Save & New button
+Mar 08, 2018 2:38:10 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 22: A message : Banner successfully saved shows and New banner page displays
+Mar 08, 2018 2:38:10 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 23: Enter valid Name to Name textbox
+Mar 08, 2018 2:38:12 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 24: Select a Category in Category dropdown list
+Mar 08, 2018 2:38:23 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 25: Select a Client in Client dropdown list
+Mar 08, 2018 2:38:33 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 26: Click Save & Close button
+Mar 08, 2018 2:38:38 PM testCase.BANNERS_TC011_VerifyThatUserCanCreateManyBannersByUsingSaveNewButton login
+INFO: Step 27: A message : Banner successfully saved shows and new banner is created
+]]></system-err>
+</testsuite>

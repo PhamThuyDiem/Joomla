@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-08T07:41:42" hostname="LGDN15031" time="133.33">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator/, diempham, diempham, Client Test 1520494897283, Mr John, John@gmail.com, Category Test 1520494897283, Banner Test 1520494897283, Category Test 1520494897283)" classname="testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner" time="133.33"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+3.9.0.0
+Listening on port 11475
+Only local connections are allowed
+Mar 08, 2018 2:41:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 08, 2018 2:41:42 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: -----------TC_JOOMLA_BANNERS_014-------------
+Mar 08, 2018 2:41:42 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 08, 2018 2:41:43 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 2 : Login with User Name and password
+Mar 08, 2018 2:41:47 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 3: Click Login in button
+Mar 08, 2018 2:41:50 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 4: Select Components -> Banners -> Clients
+Mar 08, 2018 2:41:55 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 5: Click New button in the right top cornera
+Mar 08, 2018 2:41:58 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 6: Enter valid Client Name to Client Name textbox
+Mar 08, 2018 2:42:00 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 7: Enter valid Client Name to Client Name textbox
+Mar 08, 2018 2:42:02 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 8: Enter valid Contact Email to Contact Email textbox
+Mar 08, 2018 2:42:04 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 9: Click Save & Close button
+Mar 08, 2018 2:42:08 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 10: A message : Client successfully saved shows and new client is created
+Mar 08, 2018 2:42:22 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 11: Select Components -> Banners -> Categories
+Mar 08, 2018 2:42:28 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 12: Click New button in the right top corner
+Mar 08, 2018 2:42:32 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 13: Enter valid Category Name to Name textbox
+Mar 08, 2018 2:42:33 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 14: Click Save & Close button
+Mar 08, 2018 2:42:38 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 15: A message : Category successfully saved shows and new category is created
+Mar 08, 2018 2:42:54 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 16: Select Components -> Banners -> Banners
+Mar 08, 2018 2:42:59 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 17: Click New button in the right top corner
+Mar 08, 2018 2:43:03 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 18: Select a Category in Category dropdown list
+Mar 08, 2018 2:43:14 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 19: Select a Client in Client dropdown list
+Mar 08, 2018 2:43:24 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 20: Click Save & Close button
+Mar 08, 2018 2:43:26 PM testCase.BANNERS_TC014_VerifyThatUserCanNotCreateANewBannerWithoutEnteringTheNameOfTheBanner login
+INFO: Step 21: The color of Name textbox changes to red and New banner is not created
+]]></system-err>
+</testsuite>

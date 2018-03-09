@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-05T06:47:19" hostname="LGDN15031" time="9.588">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator, diempham, diempham)" classname="testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage" time="9.588"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1) on port 43307
+Only local connections are allowed.
+Mar 05, 2018 1:47:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 05, 2018 1:47:19 PM testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage login
+INFO: -----------TC_JOOMLA_BANNERS_007-------------
+Mar 05, 2018 1:47:19 PM testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 05, 2018 1:47:20 PM testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage login
+INFO: Step 2 : Login with User Name and password
+Mar 05, 2018 1:47:20 PM testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage login
+INFO: Step 3: Click Login in button
+Mar 05, 2018 1:47:21 PM testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage login
+INFO: Step 4: Select Components -> Banners -> Banners
+Mar 05, 2018 1:47:23 PM testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage login
+INFO: Step 5: Click New button in the top right corner
+Mar 05, 2018 1:47:24 PM testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage login
+INFO: Step 6: Click Help button in the right top corner
+Mar 05, 2018 1:47:24 PM testCase.BANNERS_TC012_VerifyThatUserCanBrowseNewBannerHelpPageInNewBannerPage login
+INFO: Step 7: Banner help page appears
+]]></system-err>
+</testsuite>

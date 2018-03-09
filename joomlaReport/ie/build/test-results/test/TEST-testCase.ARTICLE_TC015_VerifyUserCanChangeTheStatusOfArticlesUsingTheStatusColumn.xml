@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-08T07:07:16" hostname="LGDN15031" time="87.481">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator/, diempham, diempham, Test Article 1520492831497, Sample Data-Articles, Published, this is article content)" classname="testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn" time="87.481"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+3.9.0.0
+Listening on port 27537
+Only local connections are allowed
+Mar 08, 2018 2:07:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 08, 2018 2:07:16 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: -----------TC_JOOMLA_ARTICLE_015-------------
+Mar 08, 2018 2:07:16 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 08, 2018 2:07:17 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 2 :Enter valid username into Username field
+Mar 08, 2018 2:07:19 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 3: Enter valid password into Password field
+Mar 08, 2018 2:07:21 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 4: Click on 'Log in' button
+Mar 08, 2018 2:07:24 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 5: Select Content > Articles
+Mar 08, 2018 2:07:31 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 6:Click on 'New' icon of the top right toolbar
+Mar 08, 2018 2:07:35 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 7: Enter a title on 'Title' field
+Mar 08, 2018 2:07:37 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 8: Select an item from the 'Category' dropdown list
+Mar 08, 2018 2:07:42 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 9: Select 'Published' item from 'Status' dropdown list
+Mar 08, 2018 2:07:47 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 10: Enter value on 'Article Text' text area
+Mar 08, 2018 2:07:51 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 11: Click on 'Save & Close' icon of the top right toolbar
+Mar 08, 2018 2:07:57 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 12: Verify the article is saved successfully
+Mar 08, 2018 2:08:12 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 13: Check on the recently added article's checkbox
+Mar 08, 2018 2:08:18 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 14: Click on the status icon of the selected article in the Status column
+Mar 08, 2018 2:08:25 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 15: Verify the article is unpublished successfully
+Mar 08, 2018 2:08:29 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 16: Check on the recently added article's checkbox
+Mar 08, 2018 2:08:35 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 17: Click on the status icon of the selected article in the Status column
+Mar 08, 2018 2:08:40 PM testCase.ARTICLE_TC015_VerifyUserCanChangeTheStatusOfArticlesUsingTheStatusColumn login
+INFO: Step 18: Verify the article is published successfully
+]]></system-err>
+</testsuite>

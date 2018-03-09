@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn" tests="1" skipped="0" failures="1" errors="0" timestamp="2018-03-05T06:27:28" hostname="LGDN15031" time="723.589">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator, diempham, diempham, Test Article 1520231244842, Sample Data-Articles, this is article content, Test Article New 1520231244842, Sample Data-Articles, this is modified content)" classname="testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn" time="723.589">
+    <failure message="java.lang.AssertionError: expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at common.Configure.verifyTrue(Configure.java:97)
+	at testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn.login(ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:129)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:88)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy1.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:119)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:146)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:128)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1) on port 6923
+Only local connections are allowed.
+Mar 05, 2018 1:27:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 05, 2018 1:27:28 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: -----------TC_JOOMLA_ARTICLE_014-------------
+Mar 05, 2018 1:27:28 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 05, 2018 1:27:28 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 2 :Enter valid username into Username field
+Mar 05, 2018 1:27:29 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 3: Enter valid password into Password field
+Mar 05, 2018 1:27:29 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 4: Click on 'Log in' button
+Mar 05, 2018 1:27:30 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 5: Select Content > Articles
+Mar 05, 2018 1:27:31 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 6:Click on 'New' icon of the top right toolbar
+Mar 05, 2018 1:27:33 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 7: Enter a title on 'Title' field
+Mar 05, 2018 1:27:34 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 8: Select an item from the 'Category' dropdown list
+Mar 05, 2018 1:27:34 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 9: Enter value on 'Article Text' text area
+Mar 05, 2018 1:27:34 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 10: Click on 'Save & Close' icon of the top right toolbar
+Mar 05, 2018 1:27:36 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 11: Verify the article is saved successfully
+Mar 05, 2018 1:27:40 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 12: Select Content > Articles
+Mar 05, 2018 1:27:40 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 13:Click on 'New' icon of the top right toolbar
+Mar 05, 2018 1:27:42 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 14: Enter a title on 'Title' field
+Mar 05, 2018 1:27:43 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 15: Select an item from the 'Category' dropdown list
+Mar 05, 2018 1:27:43 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 16: Enter value on 'Article Text' text area
+Mar 05, 2018 1:27:43 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 17: Click on 'Save & Close' icon of the top right toolbar
+Mar 05, 2018 1:27:45 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 18: Verify the article is saved successfully
+Mar 05, 2018 1:27:48 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 19: Click on the Header link of Ordering column
+Mar 05, 2018 1:39:29 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 20: Check on the second created article's checkbox
+Mar 05, 2018 1:39:29 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 21: Click on down arrow in Ordering column of the selected article
+Mar 05, 2018 1:39:31 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 22: Verify the first article changes its position with the second article
+]]></system-err>
+</testsuite>

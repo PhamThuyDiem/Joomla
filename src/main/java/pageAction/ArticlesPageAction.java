@@ -663,13 +663,11 @@ public class ArticlesPageAction extends CommonAction {
 		Configure.waitElementDisplay(3000);
 		listLimit("All");
 		try {
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		Configure.waitElementDisplay(3000);
-		focus(readElement(Interfaces.ArticlesPage.orderingColumn));
 		click(readElement(Interfaces.ArticlesPage.orderingColumn));
 		return checkPositionFirst(title, titleNew);
 	}

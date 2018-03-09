@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-05T07:43:09" hostname="LGDN15031" time="103.771">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator, diempham, diempham, 20)" classname="testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable" time="103.771"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 05, 2018 2:43:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 05, 2018 2:43:09 PM testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable login
+INFO: -----------TC_JOOMLA_BANNERS_015-------------
+Mar 05, 2018 2:43:09 PM testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 05, 2018 2:43:09 PM testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable login
+INFO: Step 2 : Login with User Name and password
+Mar 05, 2018 2:43:10 PM testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable login
+INFO: Step 3: Click Login in button
+Mar 05, 2018 2:43:12 PM testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable login
+INFO: Step 4: Select Components -> Banners -> Banners
+Mar 05, 2018 2:43:13 PM testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable login
+INFO: Step 5: Select quantily that user wants to display
+Mar 05, 2018 2:43:14 PM testCase.BANNERS_TC015_VerifyThatUserCanChangeTheQuantityOfItemsDisplayedInBannerTable login
+INFO: Step 6: Verify quantity of items displayed in table is changed
+]]></system-err>
+</testsuite>

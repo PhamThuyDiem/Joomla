@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-05T07:35:48" hostname="LGDN15031" time="37.381">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator, diempham, diempham, Client Test 1520235345014, Mr John, John@gmail.com, Category Test 1520235345014, Banner Test 1520235345014, Category Test 1520235345014)" classname="testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner" time="37.381"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 05, 2018 2:35:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 05, 2018 2:35:48 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: -----------TC_JOOMLA_BANNERS_004-------------
+Mar 05, 2018 2:35:48 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 05, 2018 2:35:49 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 2 : Login with User Name and password
+Mar 05, 2018 2:35:49 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 3: Click Login in button
+Mar 05, 2018 2:35:51 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 4: Select Components -> Banners -> Clients
+Mar 05, 2018 2:35:52 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 5: Click New button in the right top cornera
+Mar 05, 2018 2:35:54 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 6: Enter valid Client Name to Client Name textbox
+Mar 05, 2018 2:35:54 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 7: Enter valid Client Name to Client Name textbox
+Mar 05, 2018 2:35:54 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 8: Enter valid Contact Email to Contact Email textbox
+Mar 05, 2018 2:35:54 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 9: Click Save & Close button
+Mar 05, 2018 2:35:56 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 10: A message : Client successfully saved shows and new client is created
+Mar 05, 2018 2:35:59 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 11: Select Components -> Banners -> Categories
+Mar 05, 2018 2:36:00 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 12: Click New button in the right top corner
+Mar 05, 2018 2:36:02 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 13: Enter valid Category Name to Name textbox
+Mar 05, 2018 2:36:03 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 14: Click Save & Close button
+Mar 05, 2018 2:36:05 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 15: A message : Category successfully saved shows and new category is created
+Mar 05, 2018 2:36:08 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 16: Select Components -> Banners -> Banners
+Mar 05, 2018 2:36:10 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 17: Click New button in the right top corner
+Mar 05, 2018 2:36:12 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 18: Enter valid Name to Name textbox
+Mar 05, 2018 2:36:12 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 19: Select a Category in Category dropdown list
+Mar 05, 2018 2:36:13 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 20: Select a Client in Client dropdown list
+Mar 05, 2018 2:36:15 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 21: Click Save & Close button
+Mar 05, 2018 2:36:17 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 22: A message : Banner successfully saved shows and new banner is created
+Mar 05, 2018 2:36:20 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 23: Check the banner recently created
+Mar 05, 2018 2:36:23 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 24: Click Unpublish button in the right top corner
+Mar 05, 2018 2:36:25 PM testCase.BANNERS_TC004_VerifyThatUserCanUnpublishABanner login
+INFO: Step 25: A message : 1 banner successfully unpublished shows and banner is unpublished
+]]></system-err>
+</testsuite>

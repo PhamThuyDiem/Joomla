@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-05T07:32:08" hostname="LGDN15031" time="38.467">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator, diempham, diempham, Test Article 1520235124912, Sample Data-Articles, this is article content, Test Article New 1520235124912, Sample Data-Articles, this is modified content)" classname="testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn" time="38.467"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 05, 2018 2:32:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 05, 2018 2:32:08 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: -----------TC_JOOMLA_ARTICLE_014-------------
+Mar 05, 2018 2:32:08 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 05, 2018 2:32:08 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 2 :Enter valid username into Username field
+Mar 05, 2018 2:32:09 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 3: Enter valid password into Password field
+Mar 05, 2018 2:32:09 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 4: Click on 'Log in' button
+Mar 05, 2018 2:32:11 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 5: Select Content > Articles
+Mar 05, 2018 2:32:11 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 6:Click on 'New' icon of the top right toolbar
+Mar 05, 2018 2:32:15 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 7: Enter a title on 'Title' field
+Mar 05, 2018 2:32:15 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 8: Select an item from the 'Category' dropdown list
+Mar 05, 2018 2:32:15 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 9: Enter value on 'Article Text' text area
+Mar 05, 2018 2:32:16 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 10: Click on 'Save & Close' icon of the top right toolbar
+Mar 05, 2018 2:32:18 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 11: Verify the article is saved successfully
+Mar 05, 2018 2:32:22 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 12: Select Content > Articles
+Mar 05, 2018 2:32:22 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 13:Click on 'New' icon of the top right toolbar
+Mar 05, 2018 2:32:25 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 14: Enter a title on 'Title' field
+Mar 05, 2018 2:32:26 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 15: Select an item from the 'Category' dropdown list
+Mar 05, 2018 2:32:26 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 16: Enter value on 'Article Text' text area
+Mar 05, 2018 2:32:27 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 17: Click on 'Save & Close' icon of the top right toolbar
+Mar 05, 2018 2:32:29 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 18: Verify the article is saved successfully
+Mar 05, 2018 2:32:32 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 19: Click on the Header link of Ordering column
+Mar 05, 2018 2:32:40 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 20: Check on the second created article's checkbox
+Mar 05, 2018 2:32:41 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 21: Click on down arrow in Ordering column of the selected article
+Mar 05, 2018 2:32:46 PM testCase.ARTICLE_TC014_VerifyUserCanChangeTheOrderOfArticlesUsingTheOrderingColumn login
+INFO: Step 22: Verify the first article changes its position with the second article
+]]></system-err>
+</testsuite>

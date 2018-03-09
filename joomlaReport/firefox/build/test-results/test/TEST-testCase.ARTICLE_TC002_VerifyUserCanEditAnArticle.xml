@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-05T07:22:38" hostname="LGDN15031" time="27.916">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator, diempham, diempham, Test Article 1520234555348, Sample Data-Articles, this is article content, Test Article New 1520234555348, Sample Data-Articles, this is modified content)" classname="testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle" time="27.916"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 05, 2018 2:22:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 05, 2018 2:22:38 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: -----------TC_JOOMLA_ARTICLE_002-------------
+Mar 05, 2018 2:22:38 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 05, 2018 2:22:39 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 2 :Enter valid username into Username field
+Mar 05, 2018 2:22:40 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 3: Enter valid password into Password field
+Mar 05, 2018 2:22:40 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 4: Click on 'Log in' button
+Mar 05, 2018 2:22:42 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 5: Select Content > Articles
+Mar 05, 2018 2:22:42 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 6:Click on 'New' icon of the top right toolbar
+Mar 05, 2018 2:22:46 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 7: Enter a title on 'Title' field
+Mar 05, 2018 2:22:46 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 8: Select an item from the 'Category' dropdown list
+Mar 05, 2018 2:22:47 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 9: Enter value on 'Article Text' text area
+Mar 05, 2018 2:22:47 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 10: Click on 'Save & Close' icon of the top right toolbar
+Mar 05, 2018 2:22:50 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 11: Verify the article is saved successfully
+Mar 05, 2018 2:22:53 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 12: Select Content > Articles
+Mar 05, 2018 2:22:54 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 13: Check on the recently added article's checkbox
+Mar 05, 2018 2:22:55 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 14: Click on 'Edit' icon of the top right toolbar
+Mar 05, 2018 2:22:58 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 15: Enter a new title on 'Title' text field
+Mar 05, 2018 2:22:59 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 16: Select a new item from the 'Category' dropdown list
+Mar 05, 2018 2:22:59 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 17: Enter value on 'Article Text' text area
+Mar 05, 2018 2:23:00 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 18: Click on 'Save & Close' icon of the top right toolbar
+Mar 05, 2018 2:23:02 PM testCase.ARTICLE_TC002_VerifyUserCanEditAnArticle login
+INFO: Step 19: Verify the article is saved successfully
+]]></system-err>
+</testsuite>

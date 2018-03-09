@@ -187,7 +187,7 @@ public class Constant {
 		public static final String getUrl = Common.getUrl;
 		public static final String txtUser = Common.txtUser;
 		public static final String txtPassword = Common.txtPassword;
-		public static final String item = "5";
+		public static final String item = "30";
 	}
 	
 	/**

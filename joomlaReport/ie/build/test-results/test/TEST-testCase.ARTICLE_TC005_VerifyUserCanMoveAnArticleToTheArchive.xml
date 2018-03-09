@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-08T06:45:11" hostname="LGDN15031" time="73.956">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator/, diempham, diempham, Test Article 1520491506054, Sample Data-Articles, this is article content)" classname="testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive" time="73.956"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+3.9.0.0
+Listening on port 33588
+Only local connections are allowed
+Mar 08, 2018 1:45:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 08, 2018 1:45:11 PM testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive login
+INFO: -----------TC_JOOMLA_ARTICLE_005-------------
+Mar 08, 2018 1:45:11 PM testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 08, 2018 1:45:11 PM testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive login
+INFO: Step 2 :Enter valid username into Username field
+Mar 08, 2018 1:45:13 PM testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive login
+INFO: Step 3: Enter valid password into Password field
+Mar 08, 2018 1:45:15 PM testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive login
+INFO: Step 4: Click on 'Log in' button
+Mar 08, 2018 1:45:17 PM testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive login
+INFO: Step 5: Select Content > Articles
+Mar 08, 2018 1:45:25 PM testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive login
+INFO: Step 6:Click on 'New' icon of the top right toolbar
+Mar 08, 2018 1:45:29 PM testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive login
+INFO: Step 7: Enter a title on 'Title' field
+Mar 08, 2018 1:45:31 PM testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive login
+INFO: Step 8: Select an item from the 'Category' dropdown list
+Mar 08, 2018 1:45:36 PM testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive login
+INFO: Step 9: Enter value on 'Article Text' text area
+Mar 08, 2018 1:45:40 PM testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive login
+INFO: Step 10: Click on 'Save & Close' icon of the top right toolbar
+Mar 08, 2018 1:45:46 PM testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive login
+INFO: Step 11: Verify the article is saved successfully
+Mar 08, 2018 1:46:01 PM testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive login
+INFO: Step 12: Check on the recently added article's checkbox
+Mar 08, 2018 1:46:07 PM testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive login
+INFO: Step 13: Click on 'Archive' icon of the top right toolbar
+Mar 08, 2018 1:46:12 PM testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive login
+INFO: Step 14: Verify the confirm message is displayed
+Mar 08, 2018 1:46:12 PM testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive login
+INFO: Step 15: Select 'Archived' item of 'Status' dropdown list
+Mar 08, 2018 1:46:21 PM testCase.ARTICLE_TC005_VerifyUserCanMoveAnArticleToTheArchive login
+INFO: Step 16: Verify the archived article is displayed on the table grid
+]]></system-err>
+</testsuite>

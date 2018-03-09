@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCase.BANNERS_TC002_VerifyThatUserCanEditABanner" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-03-05T06:41:13" hostname="LGDN15031" time="27.032">
+  <properties/>
+  <testcase name="login[0](http://192.168.188.150/joomla/administrator, diempham, diempham, Client Test 1520232069765, Mr John, John@gmail.com, Category Test 1520232069765, Banner Test 1520232069765, Category Test 1520232069765, Banner Test 1520232069765 Edited)" classname="testCase.BANNERS_TC002_VerifyThatUserCanEditABanner" time="27.032"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1) on port 6593
+Only local connections are allowed.
+Mar 05, 2018 1:41:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 05, 2018 1:41:13 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: -----------TC_JOOMLA_BANNERS_002-------------
+Mar 05, 2018 1:41:13 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 1: Navigate to the URL: http://192.168.189.197:1081/joomla/administrator/
+Mar 05, 2018 1:41:13 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 2 : Login with User Name and password
+Mar 05, 2018 1:41:14 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 3: Click Login in button
+Mar 05, 2018 1:41:15 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 4: Select Components -> Banners -> Clients
+Mar 05, 2018 1:41:16 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 5: Click New button in the right top cornera
+Mar 05, 2018 1:41:17 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 6: Enter valid Client Name to Client Name textbox
+Mar 05, 2018 1:41:17 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 7: Enter valid Client Name to Client Name textbox
+Mar 05, 2018 1:41:17 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 8: Enter valid Contact Email to Contact Email textbox
+Mar 05, 2018 1:41:17 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 9: Click Save & Close button
+Mar 05, 2018 1:41:18 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 10: A message : Client successfully saved shows and new client is created
+Mar 05, 2018 1:41:20 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 11: Select Components -> Banners -> Categories
+Mar 05, 2018 1:41:21 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 12: Click New button in the right top corner
+Mar 05, 2018 1:41:23 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 13: Enter valid Category Name to Name textbox
+Mar 05, 2018 1:41:23 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 14: Click Save & Close button
+Mar 05, 2018 1:41:25 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 15: A message : Category successfully saved shows and new category is created
+Mar 05, 2018 1:41:29 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 16: Select Components -> Banners -> Banners
+Mar 05, 2018 1:41:30 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 17: Click New button in the right top corner
+Mar 05, 2018 1:41:32 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 18: Enter valid Name to Name textbox
+Mar 05, 2018 1:41:32 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 19: Select a Category in Category dropdown list
+Mar 05, 2018 1:41:33 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 20: Select a Client in Client dropdown list
+Mar 05, 2018 1:41:34 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 21: Click Save button
+Mar 05, 2018 1:41:35 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 22: A message : Banner successfully saved shows and Edit Banner page displays
+Mar 05, 2018 1:41:36 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 23: Enter valid Banner name to Name textbox
+Mar 05, 2018 1:41:36 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 24: Click Save & Close button
+Mar 05, 2018 1:41:37 PM testCase.BANNERS_TC002_VerifyThatUserCanEditABanner login
+INFO: Step 25: Verify that user can edit a banner
+]]></system-err>
+</testsuite>

@@ -94,7 +94,7 @@ public class CommonAction {
 	public void click(By path) {
 		if (Configure.browser.equals("IE")) {
 			try {
-				Thread.sleep(3000);
+				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -126,7 +126,7 @@ public class CommonAction {
 	public void focus(By path) {
 		if (Configure.browser.equals("IE")) {
 			try {
-				Thread.sleep(3000);
+				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -148,7 +148,7 @@ public class CommonAction {
 		
 		if (Configure.browser.equals("IE")) {
 			try {
-				Thread.sleep(3000);
+				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
