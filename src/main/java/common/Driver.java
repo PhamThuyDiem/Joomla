@@ -4,14 +4,13 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.Platform;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -24,29 +23,33 @@ public class Driver {
 	 * 
 	 * @param browser
 	 */
+	@SuppressWarnings("deprecation")
 	public void setUp(String browser) {
 		if (browser.equals("Firefox")) {
-//			DesiredCapabilities d = new DesiredCapabilities();
-//			d.setCapability("marionette", false); // to disable marionette, by default true
-//			driver = new FirefoxDriver(d); // to disable marionette, by default true
-			String Node = "http://192.168.1.164:4444/wd/hub";
-	 		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-	 		capabilities.setPlatform(Platform.WINDOWS);
-	 		try {
-				driver = new RemoteWebDriver(new URL(Node), capabilities);
+			DesiredCapabilities capability = DesiredCapabilities.firefox();
+			try {
+				driver = new RemoteWebDriver(new URL("http://192.168.191.228:4444/wd/hub"), capability);
 			} catch (MalformedURLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-	 		
+
 		} else if (browser.equals("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
-			driver = new ChromeDriver();
+			DesiredCapabilities capability = DesiredCapabilities.chrome();
+			try {
+				driver = new RemoteWebDriver(new URL("http://192.168.191.228:4444/wd/hub"), capability);
+			} catch (MalformedURLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		} else if (browser.equals("IE")) {
-			System.setProperty("webdriver.ie.driver", "./driver/IEDriverServer.exe");
-			DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
-			driver = new InternetExplorerDriver();
-			caps.setCapability("ignoreZoomSetting", true);
+			DesiredCapabilities capability = DesiredCapabilities.internetExplorer();
+			try {
+				driver = new RemoteWebDriver(new URL("http://192.168.191.228:4444/wd/hub"), capability);
+			} catch (MalformedURLException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
 			driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
 			try {
 				Thread.sleep(3000);

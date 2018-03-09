@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Test-Suite">
 	<test name="test">
-		<parameter name="browser" value="IE" />
+		<parameter name="browser" value="Firefox" />
 		<parameter name="timeOutPageLoad" value="20" />
 		<parameter name="timeOutElementLoad" value="20" />
 		<classes>

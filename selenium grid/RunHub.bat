@@ -1,1 +1,1 @@
-java -jar selenium-server-standalone-3.10.0.jar -role hub -DefaultHub DefaultHub.json -debug
+java -jar selenium-server-standalone-3.10.0.jar -role hub 

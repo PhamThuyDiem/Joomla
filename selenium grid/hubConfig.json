@@ -1,4 +1,4 @@
-{
+{"_comment" : "Configuration for Hub - hubConfig.json",
   "port": 4444,
   "newSessionWaitTimeout": -1,
   "servlets" : [],
@@ -12,4 +12,5 @@
   "debug": false,
   "browserTimeout": 0,
   "timeout": 1800
-}
+  }
+  

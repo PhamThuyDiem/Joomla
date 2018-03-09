@@ -1,1 +1,1 @@
-java -jar selenium-server-standalone-3.10.0.jar -role node -hub http://localhost:4444/grid/register
+java -jar selenium-server-standalone-3.10.0.jar -role node -hub http://192.168.191.228:4444/grid/register -port 5555
